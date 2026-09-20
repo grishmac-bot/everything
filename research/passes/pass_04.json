@@ -1,0 +1,165 @@
+{
+  "pass": 4,
+  "timestamp": "2026-09-20T08:23:17.015101",
+  "output": {
+    "scenarios": [
+      {
+        "name": "Conservative",
+        "growth_pct": 11,
+        "final_revenue_eur_m": 666,
+        "probability_pct": 25,
+        "quarterly_revenue": {
+          "Q1": 607,
+          "Q2": 625,
+          "Q3": 645,
+          "Q4": 666
+        },
+        "value_drivers": [
+          "Contract price escalation fully delivered: +\u20ac15M",
+          "Geographic expansion underperforms: only 8 country wins vs 15-20 planned \u2192 +\u20ac12M",
+          "Service line upsell slower than expected: only 6 accounts upsold \u2192 +\u20ac9M"
+        ],
+        "risks": [
+          "2 major accounts go to competitive tender \u2014 Sodexo wins 1, loses 1: net -\u20ac8M vs plan",
+          "Tech sector layoffs (Google, Meta type) reduce headcount at key campuses \u2192 FM scope reductions",
+          "Country MD execution gap in Japan and Korea delays 4 planned expansions"
+        ],
+        "leading_indicators": [
+          "Pipeline coverage drops below 2x target by Month 3",
+          "QBR conversion rate (opportunities identified \u2192 proposals submitted) below 50%",
+          "Geographic expansion mobilization delays >3 months in \u22653 markets"
+        ]
+      },
+      {
+        "name": "Base Case",
+        "growth_pct": 17,
+        "final_revenue_eur_m": 702,
+        "probability_pct": 50,
+        "quarterly_revenue": {
+          "Q1": 610,
+          "Q2": 638,
+          "Q3": 670,
+          "Q4": 702
+        },
+        "value_drivers": [
+          "Geographic expansion delivers 15 new country relationships: +\u20ac24M",
+          "Contract renewals with CPI escalation: +\u20ac15M",
+          "Service line upsell (10-12 accounts): +\u20ac18-20M"
+        ],
+        "risks": [
+          "One large account (\u20ac5-8M) goes to competitive tender \u2014 Sodexo defends but with slight scope reduction",
+          "Workplace tech upsell takes 2 months longer than planned in 3 accounts \u2014 revenue shifts to Q4",
+          "FX impact: AUD/INR depreciation reduces EUR-reported revenue by \u20ac2-3M vs local currency performance"
+        ],
+        "leading_indicators": [
+          "Pipeline coverage \u22653x target maintained through Month 6",
+          "Contract renewal success rate \u226595%",
+          "Geographic expansion: \u22655 new country contracts signed by Month 5"
+        ]
+      },
+      {
+        "name": "Aggressive",
+        "growth_pct": 22,
+        "final_revenue_eur_m": 732,
+        "probability_pct": 25,
+        "quarterly_revenue": {
+          "Q1": 612,
+          "Q2": 645,
+          "Q3": 685,
+          "Q4": 732
+        },
+        "value_drivers": [
+          "Geographic expansion overperforms: 20+ new country wins \u2192 +\u20ac35M",
+          "2 large new logos won (vs 3 planned in base) but higher value: +\u20ac15M",
+          "IFM upsell accelerated by 3 large pharma accounts converting fully: +\u20ac8M above plan"
+        ],
+        "risks": [
+          "Mobilization quality risk: growing too fast creates delivery issues and NPS drop",
+          "Country MD bandwidth stretched: too many new accounts in parallel",
+          "Premium pricing in new geographies challenged by local FM providers"
+        ],
+        "leading_indicators": [
+          "Pipeline coverage \u22654x target by Month 4",
+          "NPS maintained \u22658/10 despite rapid expansion",
+          "Country MD headcount scaling: 2+ new MDs hired by Month 4"
+        ]
+      }
+    ],
+    "risk_register": [
+      {
+        "risk": "Major account competitive tender \u2014 loss risk",
+        "likelihood": 3,
+        "impact": 5,
+        "mitigation": "Executive relationship program (WS08) + QBR cadence + proactive renewal 180 days early (WS09). Karan personally leads defense for any account >\u20ac15M."
+      },
+      {
+        "risk": "Tech sector headcount reduction reduces APMEA FM spend at key campuses",
+        "likelihood": 3,
+        "impact": 4,
+        "mitigation": "Flex FM pricing model (WS22): shift contracts to variable headcount-linked pricing. Diversify portfolio away from pure tech sector."
+      },
+      {
+        "risk": "Country MD execution gap \u2014 plans not delivered locally",
+        "likelihood": 3,
+        "impact": 4,
+        "mitigation": "Monthly operating reviews (WS15). OKRs cascaded with financial consequences. Karan intervenes directly when country lags >20% vs plan."
+      },
+      {
+        "risk": "Competitor price undercutting (Compass Group, ISS World) in new geographic tenders",
+        "likelihood": 4,
+        "impact": 3,
+        "mitigation": "Lead with value differentiation (not price): sustainability reporting, workplace tech, SAMA-certified account management. Use global reference accounts."
+      },
+      {
+        "risk": "FX exposure: APMEA revenues in AUD/INR/JPY/SGD vs EUR reporting",
+        "likelihood": 4,
+        "impact": 3,
+        "mitigation": "Natural hedging where possible. Report in local currency to country MDs. Set EUR targets with FX buffer built in."
+      },
+      {
+        "risk": "FM talent shortage in India and SE Asia constrains mobilization speed",
+        "likelihood": 4,
+        "impact": 3,
+        "mitigation": "Talent pipeline partnerships with hospitality schools. Internal mobility program. 3-month advance hiring for confirmed contracts."
+      },
+      {
+        "risk": "Innovation co-creation projects (WS19) distract from core delivery",
+        "likelihood": 3,
+        "impact": 2,
+        "mitigation": "Ring-fence innovation resources (max 5% of country MD bandwidth). Innovation projects tracked separately from core P&L."
+      },
+      {
+        "risk": "CRM data quality too poor to run account intelligence dashboard",
+        "likelihood": 3,
+        "impact": 3,
+        "mitigation": "Revenue Integrity Engine approach (WS21): Month 1 CRM audit mandatory. Country MDs accountable for data quality KPI."
+      },
+      {
+        "risk": "Client acquisition freeze: large client goes through internal restructure",
+        "likelihood": 3,
+        "impact": 3,
+        "mitigation": "Multi-stakeholder engagement (WS02) ensures Sodexo has 3+ contacts per account. Restructuring does not kill all relationships."
+      },
+      {
+        "risk": "Contract renewal lost to competitor after poor service delivery",
+        "likelihood": 2,
+        "impact": 5,
+        "mitigation": "Customer health scoring (WS14): early warning system. Immediate escalation if NPS drops below 7/10. Karan personal intervention."
+      }
+    ],
+    "monthly_dashboard_kpis": [
+      "Revenue vs target (\u20acM, cumulative YTD)",
+      "New contracts signed (count + \u20acM)",
+      "Geographic expansion: new country contracts YTD",
+      "Contract renewals: signed + average price uplift %",
+      "Portfolio health score: accounts in red/amber/green",
+      "Pipeline coverage ratio (pipeline / remaining target)",
+      "QBR completion rate (% of scheduled QBRs held)",
+      "Expansion opportunities identified in QBRs",
+      "Churn: contracts lost (count + \u20acM)",
+      "Service line upsells closed (count + \u20acM)",
+      "Country MD performance vs country target",
+      "NPS: portfolio weighted average"
+    ]
+  }
+}

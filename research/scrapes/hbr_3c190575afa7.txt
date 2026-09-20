@@ -1,0 +1,1 @@
+SCRAPE_ERROR: HTTPSConnectionPool(host='hbr.org', port=443): Max retries exceeded with url: /2012/09/the-end-of-solution-sales (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))

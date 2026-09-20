@@ -1,0 +1,407 @@
+{
+  "pass": 3,
+  "timestamp": "2026-09-20T08:23:17.014781",
+  "context": {
+    "baseline_eur_m": 600,
+    "target_eur_m": 702,
+    "growth_needed_eur_m": 102,
+    "growth_pct": 17
+  },
+  "output": {
+    "phases": [
+      {
+        "phase": "Foundation",
+        "months": "1-2",
+        "objective": "Build the intelligence layer and operating infrastructure needed to execute all growth workstreams. No revenue expected in this phase but all pipelines activated.",
+        "initiatives": [
+          {
+            "id": "F01",
+            "name": "Account Intelligence Dashboard",
+            "owner": "Karan direct + CRM team",
+            "framework": "Revenue Integrity Engine + Salesforce Native Account Plans (Equinix model)",
+            "revenue_impact_eur_m": 0,
+            "kpis": [
+              "Dashboard live by Day 30",
+              "All accounts data-complete in CRM by Day 45",
+              "Contract renewal calendar populated"
+            ],
+            "actions": [
+              "Audit CRM data quality across all 50+ strategic accounts \u2014 flag incomplete records",
+              "Deploy white space heatmap for each account: service lines \u00d7 APMEA geographies",
+              "Populate contract renewal calendar for next 18 months",
+              "Score each account on portfolio health model (0-100)",
+              "Identify top 10 'red' accounts needing immediate attention"
+            ]
+          },
+          {
+            "id": "F02",
+            "name": "LAMP Account Plans for Top 30 Accounts",
+            "owner": "Karan + Country MDs",
+            "framework": "LAMP (Large Account Management Process, Miller Heiman)",
+            "revenue_impact_eur_m": 0,
+            "kpis": [
+              "30 account plans completed",
+              "White space opportunity list: top 50 identified",
+              "Stakeholder maps: all tier-1 accounts complete"
+            ],
+            "actions": [
+              "Schedule 2-day account planning workshop with country MDs (Month 1, Week 2)",
+              "Complete LAMP charter statement for each of top 30 accounts",
+              "Build sponsor map: identify global procurement head, regional FM director, site contacts per account",
+              "Document all known white space: geographies not active, service lines not deployed",
+              "Prioritize top 20 white space opportunities by revenue potential \u00d7 feasibility"
+            ]
+          },
+          {
+            "id": "F03",
+            "name": "Contract Renewal Audit",
+            "owner": "Karan + Legal + Country MDs",
+            "framework": "90-180 day renewal campaign (Renewal & Upsell Framework v1.0)",
+            "revenue_impact_eur_m": 0,
+            "kpis": [
+              "All contracts with renewal in <12 months flagged",
+              "CPI escalation gap identified",
+              "Renewal strategy agreed for top 20 contracts"
+            ],
+            "actions": [
+              "Pull all contract renewal dates from CRM and legal system",
+              "Flag contracts with no CPI escalation clause \u2014 these are price uplift opportunities",
+              "Classify renewal complexity: simple extension vs full rebid vs competitive tender",
+              "Begin 90-day pre-renewal engagement for contracts expiring in Months 3-5",
+              "Agree negotiation strategy per contract: escalation target, BATNA, value justification"
+            ]
+          },
+          {
+            "id": "F04",
+            "name": "Country MD Alignment & OKR Cascade",
+            "owner": "Karan",
+            "framework": "OKR Framework (joelparkerhenderson) + RACI Matrix",
+            "revenue_impact_eur_m": 0,
+            "kpis": [
+              "OKRs signed off with all APMEA country MDs",
+              "Monthly operating rhythm launched",
+              "Incentive alignment confirmed with HR"
+            ],
+            "actions": [
+              "Run a 1-day strategic accounts leadership summit with all APMEA country MDs (Month 1, Week 3)",
+              "Agree country-level contribution targets: each country MD owns their portion of \u20ac102M",
+              "Publish RACI for every workstream: Karan = Accountable, Country MD = Responsible",
+              "Set up monthly country MD reporting cadence: pipeline, health, blockers",
+              "Confirm with HR that country MD incentive plans include strategic account metrics"
+            ]
+          }
+        ]
+      },
+      {
+        "phase": "Activation",
+        "months": "3-5",
+        "objective": "Generate first revenues from quick-win workstreams: contract renewals, scope amendments, QBR-led expansions. Target: \u20ac25-30M incremental by Month 5.",
+        "initiatives": [
+          {
+            "id": "A01",
+            "name": "Contract Renewal Wave 1 \u2014 Price Escalation",
+            "owner": "Karan strategy + Country MDs execution",
+            "framework": "Renewal & Upsell Framework: Value Realization + BATNA negotiation",
+            "revenue_impact_eur_m": 9,
+            "kpis": [
+              "10 contracts renewed with avg 2.5% uplift",
+              "Zero contract losses in renewal process",
+              "QBR completed before each renewal"
+            ],
+            "actions": [
+              "Prioritize the 10 highest-value contracts expiring in Months 3-6",
+              "Complete QBR with each account before initiating renewal discussions \u2014 document ROI delivered",
+              "Propose CPI-linked escalation (target 3%, accept 2%) backed by cost transparency data",
+              "Karan personally leads renewal negotiation for any contract >\u20ac10M",
+              "Bundle renewal with a new service line proposal where appetite exists"
+            ]
+          },
+          {
+            "id": "A02",
+            "name": "Contract Scope Amendments Wave 1",
+            "owner": "Country MDs + Karan oversight",
+            "framework": "Value Engineering: identify scope gaps, propose amendments",
+            "revenue_impact_eur_m": 4,
+            "kpis": [
+              "15 scope amendments submitted",
+              "10 amendments approved",
+              "Avg amendment value \u2265\u20ac400K"
+            ],
+            "actions": [
+              "Country MDs submit site-level scope gap reports to Karan by Month 3",
+              "Prioritize amendments: new sites added by client, extended hours, additional service lines",
+              "Karan reviews and approves amendment commercial terms",
+              "Submit amendments to client procurement with ROI case",
+              "Close 10 amendments by Month 5 (fastest-cycle revenue path in FM)"
+            ]
+          },
+          {
+            "id": "A03",
+            "name": "QBR Program Launch \u2014 All Tier-1 Accounts",
+            "owner": "Karan (chairs tier-1 QBRs)",
+            "framework": "QBR Preparation Framework (Claude Code Recipes)",
+            "revenue_impact_eur_m": 2,
+            "kpis": [
+              "15 tier-1 QBRs completed by Month 5",
+              "Every QBR produces \u22651 identified expansion opportunity",
+              "QBR satisfaction score \u22658/10 from clients"
+            ],
+            "actions": [
+              "Schedule all tier-1 QBRs for Months 3-5 (15 accounts)",
+              "Prepare QBR pack: value delivered vs SLA, client business update, expansion proposals, risk items",
+              "In each QBR, present white space heatmap to client \u2014 make untapped opportunity visible",
+              "Record all identified expansion opportunities in CRM with next-step owner and date",
+              "Follow up within 5 business days with formal proposal for top-priority expansion"
+            ]
+          },
+          {
+            "id": "A04",
+            "name": "Geographic Expansion Wave 1 \u2014 Easiest Markets",
+            "owner": "Karan + India/Australia/Singapore Country MDs",
+            "framework": "LAMP geographic expansion + Global Leverage (HQ mandate)",
+            "revenue_impact_eur_m": 8,
+            "kpis": [
+              "5 new country relationships signed",
+              "Global mandate obtained from 3 clients",
+              "First mobilizations started by Month 5"
+            ],
+            "actions": [
+              "Identify top 5 geographic expansion targets: accounts where Sodexo has NA/EU presence but no India, Australia, or Singapore contract",
+              "Engage global procurement head at each target account \u2014 get them to issue APMEA preference for Sodexo",
+              "Country MDs (India, Australia, SG) make first local contact under Karan's global endorsement",
+              "Propose 3-month pilot contracts in easiest-entry markets first",
+              "Target: 5 new country contracts signed by Month 5 at avg \u20ac1.6M each"
+            ]
+          }
+        ]
+      },
+      {
+        "phase": "Expansion",
+        "months": "6-9",
+        "objective": "Scale geographic and service line expansion. Target: additional \u20ac45-50M incremental (cumulative \u20ac70-80M by Month 9).",
+        "initiatives": [
+          {
+            "id": "E01",
+            "name": "Geographic Expansion Wave 2 \u2014 Tier-2 Markets",
+            "owner": "Karan + Korea/Japan/Thailand/UAE MDs",
+            "framework": "LAMP geographic expansion + reference from Wave 1 wins",
+            "revenue_impact_eur_m": 15,
+            "kpis": [
+              "10 new country contracts signed",
+              "Zero Wave 1 contracts churned",
+              "Avg contract size \u2265\u20ac1.5M"
+            ],
+            "actions": [
+              "Use Wave 1 geographic wins as reference case for Wave 2 markets",
+              "Engage global heads of 10 target accounts for APMEA expansion conversation",
+              "Country MDs in Japan, Korea, UAE, Thailand run local proposals under Karan's framework",
+              "Structure contracts as 3-year agreements with annual scope expansion provision",
+              "Target 10 new country wins by Month 9 at avg \u20ac1.5M each"
+            ]
+          },
+          {
+            "id": "E02",
+            "name": "Service Line Upsell Wave 1 \u2014 Food to Soft FM",
+            "owner": "Country MDs + Karan commercial approval",
+            "framework": "Consultative Selling \u2014 PROVE stage to EXPAND (Bluma model)",
+            "revenue_impact_eur_m": 12,
+            "kpis": [
+              "8 accounts upsold from food to food+soft FM",
+              "Average new contract value uplift \u20ac1.5M",
+              "Client satisfaction maintained \u22658/10 post-expansion"
+            ],
+            "actions": [
+              "Identify 12 accounts doing food-only with Sodexo where client is managing cleaning via another vendor",
+              "Present cost consolidation ROI: single FM vendor reduces management overhead by 15-20%",
+              "Run 3-month soft FM pilots at 3 sites before full rollout",
+              "Use QBR data to show food service excellence \u2014 justify trust for soft FM expansion",
+              "Sign 8 full service expansions by Month 9"
+            ]
+          },
+          {
+            "id": "E03",
+            "name": "Workplace Technology Upsell \u2014 Tech Sector Accounts",
+            "owner": "Karan + Sodexo digital team",
+            "framework": "Product-led expansion: AICMO Land & Expand tech layer",
+            "revenue_impact_eur_m": 4,
+            "kpis": [
+              "12 accounts deploy workplace tech module",
+              "Pilot-to-full conversion rate \u226570%",
+              "Average tech add-on value \u2265\u20ac330K"
+            ],
+            "actions": [
+              "Select 5 tech-sector clients for initial workplace technology pilot (space analytics + employee app)",
+              "Run 60-day pilots at 2 sites per client \u2014 measure utilization, satisfaction, cost savings",
+              "Present pilot ROI data at next QBR \u2014 propose full deployment",
+              "Scale to 12 accounts by Month 9 (tech + pharma sectors)",
+              "Bundle into existing FM contract renewal to avoid separate procurement process"
+            ]
+          },
+          {
+            "id": "E04",
+            "name": "Sustainability Services Launch",
+            "owner": "Karan + Sodexo sustainability team",
+            "framework": "ESG-driven upsell \u2014 Renewal & Upsell Framework sustainability module",
+            "revenue_impact_eur_m": 3,
+            "kpis": [
+              "18 accounts subscribed to sustainability add-on",
+              "Carbon reporting dashboard live for 10 accounts",
+              "2 accounts achieve green certification with Sodexo support"
+            ],
+            "actions": [
+              "Launch 'Sodexo APMEA Sustainability Report' showing baseline carbon from managed operations for each account",
+              "Propose sustainability add-on: \u20ac150-200K/account for waste tracking, carbon reporting, plant-based menu program",
+              "Target accounts with public net-zero commitments first (most receptive)",
+              "Integrate sustainability metrics into standard QBR dashboard",
+              "Target 18 accounts add sustainability module by Month 9"
+            ]
+          }
+        ]
+      },
+      {
+        "phase": "Acceleration",
+        "months": "10-12",
+        "objective": "Close remaining pipeline, finalize contract renewals Wave 2, secure new logo wins, hit \u20ac702M. Target: additional \u20ac20-25M to complete the \u20ac102M.",
+        "initiatives": [
+          {
+            "id": "AC01",
+            "name": "Contract Renewal Wave 2 \u2014 Full Portfolio Sweep",
+            "owner": "Karan + all Country MDs",
+            "framework": "Renewal & Upsell Framework: full lifecycle",
+            "revenue_impact_eur_m": 6,
+            "kpis": [
+              "20 additional contracts renewed",
+              "Portfolio-wide avg price uplift \u22652%",
+              "Churn rate \u22641.5%"
+            ],
+            "actions": [
+              "Close all remaining contract renewals with CPI escalation",
+              "For any contracts with zero escalation clause: treat as priority \u2014 negotiate first amendment adding escalation",
+              "QBR before every renewal \u2014 document year's performance as justification",
+              "Target: complete 90% of all renewals by Month 12 with avg 2.5% uplift"
+            ]
+          },
+          {
+            "id": "AC02",
+            "name": "New Logo Acceleration \u2014 Close Pipeline",
+            "owner": "Karan",
+            "framework": "MEDDPICC qualification framework",
+            "revenue_impact_eur_m": 10,
+            "kpis": [
+              "3 new strategic logos signed",
+              "Pipeline coverage \u22653x target",
+              "Sales cycle \u22649 months for new logos"
+            ],
+            "actions": [
+              "Close 3 new strategic accounts identified and qualified in Months 1-6",
+              "Use Wave 1 geographic wins and reference accounts to accelerate new logo sales cycle",
+              "Karan personally presents to final C-suite stakeholders for all >\u20ac3M opportunities",
+              "Ensure all new logos have multi-year contracts with annual expansion provisions"
+            ]
+          },
+          {
+            "id": "AC03",
+            "name": "Service Line Upsell Wave 2 \u2014 IFM Conversion",
+            "owner": "Country MDs + Karan",
+            "framework": "Integrated FM consultative selling",
+            "revenue_impact_eur_m": 8,
+            "kpis": [
+              "5 accounts upgraded to full IFM",
+              "IFM contract value avg \u20ac2M per account",
+              "IFM NPS \u22658/10"
+            ],
+            "actions": [
+              "Close 5 accounts on full IFM (food + soft + hard FM + workplace tech) by Month 12",
+              "These are the highest-value upsells: food+soft accounts converting to full IFM",
+              "Run IFM mobilization concurrently with contract signing to reduce revenue start delay"
+            ]
+          },
+          {
+            "id": "AC04",
+            "name": "Year-End Executive Review & Year 2 Foundation",
+            "owner": "Karan + APMEA leadership",
+            "framework": "Balanced Scorecard annual review (joelparkerhenderson)",
+            "revenue_impact_eur_m": 0,
+            "kpis": [
+              "\u20ac702M achieved",
+              "Year 2 account plans drafted",
+              "Top 5 win-back targets identified for Year 2"
+            ],
+            "actions": [
+              "Full portfolio review: actual vs target by account, workstream, and geography",
+              "Identify which workstreams over/under-delivered and why",
+              "Begin Year 2 account plans (WS01 restarts) with Year 1 learning embedded",
+              "Launch formal reference account program with top 5 NPS accounts"
+            ]
+          }
+        ]
+      }
+    ],
+    "revenue_waterfall": [
+      {
+        "item": "Baseline Portfolio",
+        "eur_m": 0,
+        "cumulative": 600
+      },
+      {
+        "item": "WS09: Contract Price Escalation",
+        "eur_m": 15,
+        "cumulative": 615
+      },
+      {
+        "item": "WS16: Contract Scope Amendments",
+        "eur_m": 6,
+        "cumulative": 621
+      },
+      {
+        "item": "WS04/WS11: Geographic Expansion Wave 1",
+        "eur_m": 8,
+        "cumulative": 629
+      },
+      {
+        "item": "WS05: Service Line Upsell (Food\u2192Soft FM)",
+        "eur_m": 12,
+        "cumulative": 641
+      },
+      {
+        "item": "WS04/WS11: Geographic Expansion Wave 2",
+        "eur_m": 15,
+        "cumulative": 656
+      },
+      {
+        "item": "WS06: Site Density Expansion",
+        "eur_m": 15,
+        "cumulative": 671
+      },
+      {
+        "item": "WS05/WS10: IFM Upsell + Service Expansion",
+        "eur_m": 13,
+        "cumulative": 684
+      },
+      {
+        "item": "WS12: Workplace Technology Upsell",
+        "eur_m": 4,
+        "cumulative": 688
+      },
+      {
+        "item": "WS13: Sustainability Services",
+        "eur_m": 3,
+        "cumulative": 691
+      },
+      {
+        "item": "WS10: New Logo Acquisition",
+        "eur_m": 10,
+        "cumulative": 701
+      },
+      {
+        "item": "WS22/WS23: Hybrid Work + New Offices",
+        "eur_m": 4,
+        "cumulative": 705
+      }
+    ],
+    "total_target": 702,
+    "total_projected": 705,
+    "revenue_buffer_eur_m": 3,
+    "note": "\u20ac705M projected vs \u20ac702M target = 3M buffer (0.5% cushion). Conservative capture rates applied across all workstreams."
+  }
+}

@@ -1,0 +1,1 @@
+SCRAPE_ERROR: HTTPSConnectionPool(host='www.gartner.com', port=443): Max retries exceeded with url: /en/sales/insights/account-management (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))

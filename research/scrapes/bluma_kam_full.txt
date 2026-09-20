@@ -1,0 +1,96 @@
+# 08 · Key Account Management — Land, Prove, Expand
+
+Winning a city or a developer is the *start*, not the finish. The biggest, cheapest growth in this
+business comes from **expanding inside accounts we've already won** — more sites, more services, and
+multi-year frameworks. This document is the account-management layer that sits on top of the SDR
+motion. Written for the Key Account Management (KAM) role.
+
+> **Core idea:** an SDR books the first meeting; a KAM turns one signed district into a city-wide
+> framework. Net revenue retention is the scoreboard.
+
+---
+
+## 1. The account lifecycle
+
+```
+LAND          PROVE             EXPAND              RENEW & ADVOCATE
+first deal → calibrate the → more sites /      → multi-year framework +
+(pilot)      value model     services / dept     reference + referrals
+             on real data    (land-and-expand)
+```
+
+Each stage has an owner action and a metric:
+
+| Stage | What the KAM does | Success metric |
+|---|---|---|
+| **Land** | Smooth handover from SDR/AE; agree a success plan with measurable goals | Signed pilot + mutual success plan |
+| **Prove** | Instrument the install; report real m², CO₂, and € saved vs. the model | Calibrated impact report delivered |
+| **Expand** | Map new stakeholders & sites; propose the next phase | Expansion deals / net revenue retention |
+| **Renew** | QBRs, multi-year framework, secure the reference | Renewal rate + referenceable account |
+
+---
+
+## 2. Account planning
+
+For every key account, maintain a living plan with:
+
+- **Stakeholder map** — economic buyer, champion, technical evaluator, blockers, and end-users
+  (e.g. for a city: Head of Sustainability, Procurement, Finance, the District Manager).
+- **Whitespace map** — what they've bought vs. everything they *could* buy (other districts, other
+  building types, maintenance contracts, ESG-reporting add-ons).
+- **Success plan** — the outcomes the customer agreed to, the metrics, and the review cadence.
+- **Risk register** — budget-cycle risk, champion-leaving risk, delivery risk, and the mitigation.
+
+---
+
+## 3. Land-and-expand by segment
+
+| Segment | Land (foot in the door) | Expand (grow the account) |
+|---|---|---|
+| **B2G** | One district / a cluster of municipal buildings | Other districts → city-wide framework → neighbouring municipalities via reference |
+| **B2B** | One flagship development or HQ | The wider portfolio → standard spec across new builds → maintenance contract |
+| **Hospitality** | One café site | Owner's other locations → small-chain rollout → co-branded program |
+
+The expansion engine is the **impact report**: once we can show *real* m², CO₂, and € saved on the
+first install, the next-site conversation stops being a sales pitch and becomes a budgeting exercise.
+
+---
+
+## 4. The Quarterly Business Review (QBR)
+
+A tight, repeatable QBR is the KAM's most important recurring motion:
+
+1. **Outcomes to date** — real metrics from delivered installs vs. the original success plan.
+2. **Model vs. actual** — how the calibrated numbers compare to the projections (builds trust).
+3. **Benchmark** — how this account compares to peer cities/developers (gentle competitive pull).
+4. **Roadmap** — the proposed next sites/services and the value they unlock.
+5. **Asks** — the reference, the intro, the budget line for next cycle.
+
+---
+
+## 5. Renewals & expansion playbook
+
+- **Start early.** Open the renewal/expansion conversation one full budget cycle ahead — public and
+  enterprise buyers plan slowly.
+- **Lead with realized value.** "Here's what you've actually saved and removed" beats any new pitch.
+- **Tie to their cycle.** Align proposals to the city budget cycle or the developer's project pipeline.
+- **Make the champion a hero.** Give them the metrics, slides, and story to defend the spend internally.
+- **Engineer referrals.** A referenceable account in Ring 1 is the cheapest way to open Ring 2.
+
+---
+
+## 6. Health scoring & metrics the KAM owns
+
+| Signal | Healthy | At-risk |
+|---|---|---|
+| Value realized vs. plan | On / ahead of plan | Behind, unreported |
+| Stakeholder coverage | Multi-threaded | Single champion |
+| Engagement | QBRs attended, responsive | Slipping meetings |
+| Expansion | Whitespace in motion | Flat, no next step |
+
+**Owned metrics:** Net Revenue Retention (NRR), logo retention, expansion revenue, renewal rate,
+reference / advocacy count, and time-to-first-value.
+
+> Interview talking point: **acquisition gets the logo; account management compounds it.** The
+> impact model isn't just a sales tool — it's the renewal and expansion engine, because it turns
+> every install into a measured, defensible reason to buy more.

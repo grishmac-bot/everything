@@ -1,0 +1,1 @@
+SCRAPE_ERROR: HTTPSConnectionPool(host='www.facilitiesnet.com', port=443): Max retries exceeded with url: /businessmanagement/ (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))

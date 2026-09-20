@@ -1,0 +1,443 @@
+{
+  "pass": 1,
+  "timestamp": "2026-09-20T08:23:17.013636",
+  "scrapes_loaded": 55,
+  "scraped_evidence": {
+    "account_plan_framework": {
+      "source": "Equinix Account Plan Framework (GitHub: rydersd/eqSFDC_lightDS)",
+      "stat1": "Single-threaded deals: ~5% win rate. Deals with 5+ stakeholders: ~30% win rate.",
+      "stat2": "Cross-department threading increases win rates by up to 56%.",
+      "stat3": "Only 28% of sales leaders say their account management approaches meet growth targets.",
+      "stat4": "Top performers with strategic expansion programs achieve NRR above 120%."
+    },
+    "enterprise_acct_mgmt": {
+      "source": "SixArm Topics: Enterprise Account Management (GitHub: SixArm/topics)",
+      "stat1": "Pareto principle: 20% of accounts generate 80% of total revenue.",
+      "stat2": "Cost of acquiring a new customer is 5-7x higher than retaining an existing one.",
+      "lifecycle": "6 stages: Identify \u2192 Build Relationships \u2192 Collaborate \u2192 Deliver Value \u2192 Manage Risk \u2192 Expand & Renew"
+    },
+    "land_prove_expand": {
+      "source": "Bluma GTM Campaign KAM Playbook (GitHub: MrityunjayNagariya/bluma-gtm-campaign)",
+      "model": "LAND (first deal) \u2192 PROVE (calibrate value model on real data) \u2192 EXPAND (more sites/services/depts) \u2192 RENEW & ADVOCATE (multi-year framework + reference)",
+      "scorecard": "Net revenue retention is the primary scorecard metric."
+    },
+    "renewal_upsell": {
+      "source": "Enterprise Renewal & Expansion Revenue Framework v1.0 (GitHub: adedayoagarau)",
+      "stat1": "For most B2B companies, expansion + renewals = 70-130% of new bookings.",
+      "stat2": "Expansion revenue has 3-5x better margins vs new logo acquisition.",
+      "stat3": "90-180 day renewal campaigns prevent last-minute contract surprises.",
+      "frameworks": "Customer Health Scoring, Value Realization Framework, Expansion Opportunity Identification, Renewal Process Optimization"
+    },
+    "nrr_engine": {
+      "source": "AICMO: Enterprise Land & Expand Revenue Acceleration Intelligence Engine",
+      "model": "Beachhead selection \u2192 expansion trigger identification \u2192 multi-stakeholder champion development \u2192 account growth planning \u2192 NRR optimization",
+      "benchmark": "Target NRR above 120% with systematic land-and-expand motion."
+    },
+    "qbr": {
+      "source": "QBR Preparation Framework (GitHub: sgharlow/claude-code-recipes)",
+      "insight": "QBRs are critical touchpoints for value demonstration, goal alignment, and expansion opportunity identification. Systematized QBR prep saves 2-4 hours per account."
+    },
+    "food_beverage": {
+      "source": "Food & Beverage \u00d7 Sales Playbook (GitHub: ynatye/usecase-generator)",
+      "insight": "Trade spend = 15-25% of gross revenue in F&B. Foodservice accounts require multi-stakeholder coordination. Direct-to-operator sales require dedicated KAM motion."
+    },
+    "balanced_scorecard": {
+      "source": "Strategic Balanced Scorecard (GitHub: joelparkerhenderson)",
+      "frameworks": "OKRs + KPIs + Critical Success Factors + Destination Statement"
+    }
+  },
+  "output": {
+    "workstreams": [
+      {
+        "id": "WS01",
+        "name": "Annual Strategic Account Planning (LAMP)",
+        "definition": "Formal annual account plan for each strategic account mapping current state, white space, sponsor relationships, and 12-month revenue targets.",
+        "framework": "Miller Heiman Large Account Management Process (LAMP) \u2014 defines charter statement, customer business issues, sales opportunities, and white space analysis. Validated by Equinix account plan framework (28% of leaders without structured plans miss targets).",
+        "sodexo_application": "Karan runs structured account plans for each of the top 30 accounts by revenue. Each plan covers: current geographies active, untapped geographies, current service lines, whitespace service lines, sponsor map, global vs local buying dynamics, contract renewal date, competitive threats.",
+        "revenue_contribution_pct": "Enabler: unlocks all other workstreams. Directly contributes 3-5% via identified opportunities.",
+        "timeframe": "quick",
+        "dependencies": [
+          "CRM data quality",
+          "Country MD input"
+        ],
+        "evidence_sources": [
+          "Miller Heiman LAMP (published 1998, updated 2019)",
+          "Equinix Account Plan Framework \u2014 eqSFDC_lightDS GitHub repo"
+        ]
+      },
+      {
+        "id": "WS02",
+        "name": "Multi-Stakeholder Mapping & Executive Sponsorship",
+        "definition": "Systematic identification and engagement of all relevant client stakeholders: global procurement, regional FM heads, country HR/admin, CFO, sustainability officer, site leads.",
+        "framework": "Miller Heiman Blue Sheet stakeholder mapping. Research shows single-threaded deals: 5% win rate vs multi-stakeholder (5+): 30% win rate. Cross-department threading: up to 56% win rate increase (Equinix Account Plan Framework).",
+        "sodexo_application": "For each strategic account, map 3 tiers: (1) Global decision-makers (Group Procurement Head, CFO, Global CHRO), (2) Regional sponsors (APMEA Real Estate / FM Director), (3) Country/site contacts. Karan owns tier-1 globally. Country MDs own tier-3. Build C-suite-to-C-suite relationship between Sodexo APMEA leadership and client C-suite.",
+        "revenue_contribution_pct": "2-4% via increased deal velocity and reduced churn risk.",
+        "timeframe": "quick",
+        "dependencies": [
+          "LAMP account plans",
+          "CRM stakeholder tracking"
+        ],
+        "evidence_sources": [
+          "Miller Heiman Blue Sheet",
+          "Equinix Account Plan Framework (5% vs 30% win rate stat)"
+        ]
+      },
+      {
+        "id": "WS03",
+        "name": "White Space Analysis",
+        "definition": "Systematic mapping of Sodexo's current penetration (geographies + service lines) vs. total addressable opportunity for each strategic account.",
+        "framework": "White space analysis grid: X-axis = service lines (Food, Soft FM, Hard FM, Workplace Tech, IFM, Energy Mgmt, Sustainability), Y-axis = APMEA geographies (India, China, Japan, Korea, Australia, Singapore, Thailand, UAE, SA, Nigeria). Each cell = Current / Potential / Competitor.",
+        "sodexo_application": "Build a white space heatmap for each top-30 account. Priority scoring: (Market size \u00d7 Current wallet share gap \u00d7 Sodexo capability present in country). Identify top 50 white space opportunities. Convert top 20 in 12 months.",
+        "revenue_contribution_pct": "Foundation for WS04 and WS05. Directly contributes 5-8% of target.",
+        "timeframe": "quick",
+        "dependencies": [
+          "Account planning data",
+          "Country capability mapping from country MDs"
+        ],
+        "evidence_sources": [
+          "SAMA research on account growth",
+          "Equinix Account Plan Framework whitespace section"
+        ]
+      },
+      {
+        "id": "WS04",
+        "name": "Geographic Expansion (Same Client, New APMEA Country)",
+        "definition": "Win new country relationships within existing strategic accounts \u2014 client already knows Sodexo and takes services in other regions (North America / Europe). Leverage that relationship to penetrate untapped APMEA countries.",
+        "framework": "Leverage LAMP charter statement: use existing global relationship as entry point. Engage global procurement head to mandate/recommend APMEA country expansion. Reference the Bluma Land-and-Expand model: PROVE global value \u2192 EXPAND geographically.",
+        "sodexo_application": "For each account where Sodexo is present in NA/Europe but absent in, e.g., India or Japan: (1) Karan coordinates with global account team (non-APMEA regions), (2) Gets global procurement endorsement, (3) Country MD in target country leads local proposal, (4) Karan closes framework agreement. Target: 15-20 new country wins across top accounts. Revenue: avg \u20ac1.5-2M per new country relationship.",
+        "revenue_contribution_pct": "~\u20ac30M (15-20 country wins at avg \u20ac1.5-2M each) = ~29% of the \u20ac102M target.",
+        "timeframe": "mid",
+        "dependencies": [
+          "White space analysis",
+          "Country MD capability in target countries",
+          "Global account team coordination"
+        ],
+        "evidence_sources": [
+          "Bluma GTM Land-and-Expand model",
+          "LAMP geographic expansion playbook",
+          "Industry norm: 4-9 months for FM mobilization"
+        ]
+      },
+      {
+        "id": "WS05",
+        "name": "Service Line Upsell (Food \u2192 Soft FM \u2192 Hard FM \u2192 IFM)",
+        "definition": "Expand from single-service relationships (e.g., food services only) to multi-service or integrated FM. Higher contract value per site, higher switching cost, deeper relationship.",
+        "framework": "Consultative Selling / Solution Selling. The PROVE stage in Bluma's model: demonstrate ROI on current service, then propose adjacent service line. Key: identify 'service adjacency readiness' \u2014 accounts already managing multiple FM vendors are ripe for bundling. Renewal & Upsell Framework: 3-5x better margins on expansion vs new logos.",
+        "sodexo_application": "Segment current accounts by service depth: (1) Food only \u2192 pitch soft FM, (2) Food + Soft FM \u2192 pitch hard FM or IFM, (3) IFM \u2192 pitch workplace experience tech / sustainability. Target 10-15 accounts for service line upsell. Each upsell adds \u20ac1.5-3M in contract value. Focus on pharma clients (who need both food + sterile environment maintenance) and tech campuses (food + workplace experience bundle).",
+        "revenue_contribution_pct": "~\u20ac25M (10-15 accounts \u00d7 avg \u20ac1.7-2.5M upsell) = ~24% of \u20ac102M target.",
+        "timeframe": "mid",
+        "dependencies": [
+          "Account plans identifying service gaps",
+          "Country MD capability for new service lines",
+          "Proof of concept from existing service delivery"
+        ],
+        "evidence_sources": [
+          "Renewal & Upsell Framework (adedayoagarau GitHub)",
+          "Enterprise Land & Expand (AICMO)",
+          "FM industry: IFM bundling trend 2019-2025"
+        ]
+      },
+      {
+        "id": "WS06",
+        "name": "Site Density Expansion (More Services Per Site)",
+        "definition": "Within existing sites already contracted, increase the number of services Sodexo delivers per site \u2014 canteen management + cleaning + reception + mail room + vending + health & wellness.",
+        "framework": "Account-based selling: identify site-level decision makers (Site FM Manager, Site HR Director) and run local upsell motion. Use health-and-wellness and hybrid work trends as entry point for new service lines at the site level.",
+        "sodexo_application": "Site audit: identify sites with Sodexo food contract but no soft services. Priority: large tech company campuses (1,000+ employees per site) where Sodexo is doing food but not cleaning or mail services. Target: 30-40 site expansions at average \u20ac400-600K per site.",
+        "revenue_contribution_pct": "~\u20ac15M (35 sites \u00d7 avg \u20ac430K uplift) = ~15% of \u20ac102M target.",
+        "timeframe": "mid",
+        "dependencies": [
+          "Site-level data from country MDs",
+          "Local service capability",
+          "Country MD ownership of site upsell"
+        ],
+        "evidence_sources": [
+          "Customer Success Manager SKILL (borghei GitHub)",
+          "AICMO expansion engine"
+        ]
+      },
+      {
+        "id": "WS07",
+        "name": "Quarterly Business Reviews (QBR Program)",
+        "definition": "Structured quarterly reviews with all top accounts: demonstrate value delivered, review KPIs, discuss business changes, identify expansion opportunities, and address risk.",
+        "framework": "QBR Preparation Framework (Claude Code Recipes). Structure: (1) Value recap \u2014 what we delivered vs SLA, (2) Business update \u2014 what changed in client org, (3) Expansion discussion \u2014 white space, (4) Risk management \u2014 contract health, (5) Roadmap \u2014 next 90 days. Systematic QBR prep reduces prep time by 2-4 hours and increases expansion identification.",
+        "sodexo_application": "Karan chairs QBRs for tier-1 accounts (top 15 by revenue) alongside country MDs. Tier-2 accounts (next 30) run QBRs at country level with quarterly readouts to Karan. Each QBR must produce: (a) one identified expansion opportunity, (b) one risk flag, (c) one innovation proposal. QBR cadence = growth engine.",
+        "revenue_contribution_pct": "Enabler: QBRs identify 3-4% incremental from in-meeting expansion discussions and contract amendments.",
+        "timeframe": "quick",
+        "dependencies": [
+          "Account plans",
+          "CRM data",
+          "Country MD participation"
+        ],
+        "evidence_sources": [
+          "QBR Preparation Framework (sgharlow/claude-code-recipes)",
+          "Customer Success Manager SKILL"
+        ]
+      },
+      {
+        "id": "WS08",
+        "name": "Executive Relationship Program (C-Suite to C-Suite)",
+        "definition": "Build peer-to-peer executive relationships between Sodexo APMEA senior leadership and client C-suite \u2014 beyond the day-to-day FM manager relationship.",
+        "framework": "Strategic Account Management Association (SAMA) Executive Engagement Model: move from transactional vendor relationship to strategic partner. Involves: CEO-to-CEO meetings for top 5 accounts, executive briefings on Sodexo innovation roadmap, co-investment in pilot programs.",
+        "sodexo_application": "Karan identifies 10 strategic accounts where Sodexo is perceived as a vendor (not a partner). Arrange executive dinners/summits between Sodexo APMEA VP/CEO and client CPO/CFO/CHRO. Goal: elevate Sodexo from 'supplier' to 'strategic partner' \u2014 unlocking access to procurement decisions and board-level facility investment plans.",
+        "revenue_contribution_pct": "2-3% (strategic partner status reduces price pressure and enables premium pricing).",
+        "timeframe": "mid",
+        "dependencies": [
+          "Sodexo APMEA VP/CEO availability",
+          "Account plan identifying relationship gaps"
+        ],
+        "evidence_sources": [
+          "SAMA Executive Engagement Model",
+          "Equinix multi-stakeholder research (5% \u2192 30% win rate)"
+        ]
+      },
+      {
+        "id": "WS09",
+        "name": "Contract Price Escalation & Renewal Optimization",
+        "definition": "Systematically manage contract renewals to capture price escalation via CPI-linked clauses, scope changes, and renegotiation of under-priced legacy contracts.",
+        "framework": "Renewal & Upsell Framework (90-180 day renewal campaigns). Inflation-indexing: embed CPI escalation clauses at contract renewal. BATNA analysis: understand client's switching costs to negotiate confidently. Value quantification: use ROI data from QBRs to justify price increases.",
+        "sodexo_application": "Audit all contracts: identify which expire in next 12 months and which have no CPI escalation clause. Priority: contracts signed pre-2022 with no inflation adjustment. Target: 2.5% average price uplift on \u20ac600M base = \u20ac15M. Karan owns negotiation strategy; country MDs execute renewals.",
+        "revenue_contribution_pct": "~\u20ac15M (2.5% \u00d7 \u20ac600M) = ~15% of \u20ac102M target.",
+        "timeframe": "quick",
+        "dependencies": [
+          "Contract database with renewal dates",
+          "Country MD support for local renewal negotiations"
+        ],
+        "evidence_sources": [
+          "Renewal & Upsell Framework v1.0",
+          "FM industry: typical CPI escalation 2-4% in managed services"
+        ]
+      },
+      {
+        "id": "WS10",
+        "name": "New Strategic Logo Acquisition (APMEA)",
+        "definition": "Target and win 2-3 new Fortune 500 / FTSE 100 companies that qualify as strategic accounts based on APMEA FM spend potential and global Sodexo alignment.",
+        "framework": "ICP-based targeting (Ideal Customer Profile). Qualification: (a) global company present in 5+ APMEA countries, (b) FM spend \u2265\u20ac5M in APMEA, (c) currently fragmented across multiple FM vendors, (d) existing Sodexo relationship in other region acts as reference. MEDDPICC qualification framework for each new opportunity.",
+        "sodexo_application": "Identify 10-15 target accounts with Sodexo in Europe/NA but not in APMEA strategic portfolio. Top targets: semiconductor companies (TSMC supply chain), financial services (expanding APAC ops), pharma (AZ, Novartis APMEA buildout). Karan manages relationships with global account team. Country MDs make initial local contact.",
+        "revenue_contribution_pct": "~\u20ac10M (3 new accounts \u00d7 avg \u20ac3.3M first-year value).",
+        "timeframe": "long",
+        "dependencies": [
+          "ICP targeting list",
+          "Global account team coordination",
+          "Long sales cycle: 6-12 months"
+        ],
+        "evidence_sources": [
+          "SixArm Enterprise Account Management framework",
+          "Pareto principle: 20% of accounts = 80% revenue"
+        ]
+      },
+      {
+        "id": "WS11",
+        "name": "Global Leverage Strategy (Mandate from HQ)",
+        "definition": "Where a client's global HQ (outside APMEA) already has a strong Sodexo relationship, use HQ mandate to accelerate APMEA expansion \u2014 either through global framework agreement or HQ-endorsed local expansion.",
+        "framework": "Global account coordination model. Works alongside WS04. Key: engage client Global Procurement Director or Global Real Estate Head to issue an internal mandate recommending/requiring use of Sodexo in APMEA. Reduces local procurement barriers significantly.",
+        "sodexo_application": "Karan coordinates with Sodexo's North America and Europe account teams to jointly engage 10-15 global clients. Propose: global framework agreement \u2192 each APMEA country signs work order under master MSA. Targets: clients already 80%+ penetrated in NA/Europe. Timeline: 3-6 months for mandate, then 6-9 months per country mobilization.",
+        "revenue_contribution_pct": "~\u20ac12M (overlaps with WS04 \u2014 accelerates geographic expansion by 30-40%).",
+        "timeframe": "mid",
+        "dependencies": [
+          "Sodexo global account team cooperation",
+          "Global client relationship at HQ level",
+          "Master Service Agreement template"
+        ],
+        "evidence_sources": [
+          "SAMA multi-region account management model",
+          "Bluma Land-and-Expand (PROVE global then EXPAND regional)"
+        ]
+      },
+      {
+        "id": "WS12",
+        "name": "Workplace Experience Technology Upsell",
+        "definition": "Upsell digital workplace platforms, IoT-enabled FM monitoring, space analytics, and employee experience apps to existing food/FM clients \u2014 higher margin, stickier contracts.",
+        "framework": "Product-led expansion: introduce tech with low friction (pilot a space booking app or IoT desk sensors), demonstrate measurable ROI (space utilization, energy savings), then expand across sites. AICMO Land-and-Expand technology upsell model.",
+        "sodexo_application": "Sodexo has acquired several workplace tech platforms (2019-2022). Bundle into existing FM contracts for tech clients (Google, Microsoft, Samsung type accounts). Pitch: 'Your Sodexo FM contract now includes real-time space analytics and an employee experience app.' Run pilots at 5 tech campus clients. Target: 12 accounts add workplace tech layer at avg \u20ac300-400K per account.",
+        "revenue_contribution_pct": "~\u20ac4M (12 accounts \u00d7 avg \u20ac330K) = ~4% of \u20ac102M target.",
+        "timeframe": "mid",
+        "dependencies": [
+          "Sodexo workplace tech product availability in APMEA",
+          "Client IT approval for app deployment"
+        ],
+        "evidence_sources": [
+          "AICMO NRR Marketing Intelligence Engine",
+          "Enterprise Land & Expand \u2014 tech upsell layer"
+        ]
+      },
+      {
+        "id": "WS13",
+        "name": "Sustainability & ESG Services Expansion",
+        "definition": "Offer sustainability-specific service lines: waste reduction programs, carbon footprint reporting for FM operations, green certification support (LEED, BREEAM), plant-based food programs.",
+        "framework": "ESG imperative in enterprise procurement: large corporates now include sustainability KPIs in FM vendor scorecards. Sodexo has published global sustainability commitments. Leverage as upsell and differentiation from competitors. Renewal framework: embed sustainability metrics in SLAs to justify premium pricing.",
+        "sodexo_application": "Target accounts with public net-zero commitments (most Fortune 500 post-2022). Propose: 'Sodexo Sustainability Add-On' \u2014 Scope 3 emissions data from food service, waste diversion reporting, plant-based menu options. Embed sustainability reporting in QBR dashboard. Target: 15-20 accounts add sustainability module at avg \u20ac150-200K per account.",
+        "revenue_contribution_pct": "~\u20ac3M (18 accounts \u00d7 avg \u20ac167K) = ~3% of \u20ac102M target.",
+        "timeframe": "mid",
+        "dependencies": [
+          "Sodexo sustainability reporting platform",
+          "Account sustainability contacts identified"
+        ],
+        "evidence_sources": [
+          "FM industry sustainability trends 2023-2025",
+          "SAMA: ESG as key account expansion driver"
+        ]
+      },
+      {
+        "id": "WS14",
+        "name": "Customer Health Scoring & Churn Prevention",
+        "definition": "Proactively monitor health of the \u20ac600M portfolio \u2014 identify at-risk accounts before they go to tender and take defensive action.",
+        "framework": "Customer Health Scoring model (borghei Claude-Skills repo). Dimensions: contract renewal date (red if < 6 months), stakeholder relationship score, SLA performance, competitive threat index, last QBR outcome, change in client headcount/site footprint. Weighted composite score. Red accounts: Karan personally intervenes.",
+        "sodexo_application": "Build a portfolio health dashboard covering all accounts. KPIs: NPS score, SLA delivery %, contract renewal date, stakeholder engagement score. Alert protocol: any account scoring < 60/100 triggers a Karan-led retention call within 5 business days. Target: protect \u20ac580M of the \u20ac600M base (3.3% acceptable churn).",
+        "revenue_contribution_pct": "Protective: prevents \u20ac15-25M potential churn = preserves 2.5-4% of target.",
+        "timeframe": "quick",
+        "dependencies": [
+          "CRM with health scoring capability",
+          "Country MD real-time reporting"
+        ],
+        "evidence_sources": [
+          "Customer Success Manager SKILL (borghei GitHub)",
+          "Renewal & Upsell Framework: predictive churn indicators"
+        ]
+      },
+      {
+        "id": "WS15",
+        "name": "Internal Mobilization & Country MD Alignment",
+        "definition": "Karan does not execute on the ground \u2014 country MDs do. Ensure every country MD is fully aligned with the growth targets for their strategic accounts, has the right incentives, and is receiving Karan's direction and support.",
+        "framework": "RACI Matrix (joelparkerhenderson/responsibility-assignment-matrix): Karan = Accountable, Country MD = Responsible, Regional FM team = Consulted, Finance = Informed. Monthly operating cadence. OKRs cascaded from Karan to each country MD.",
+        "sodexo_application": "Karan runs a monthly strategic accounts operating meeting with all APMEA country MDs. Each MD presents account health, pipeline, and blockers. Karan provides global relationship support. Incentive alignment: country MD bonus includes contribution to regional strategic account growth metric.",
+        "revenue_contribution_pct": "Enabler for all other workstreams. Without alignment, geographic expansion and upsell fail.",
+        "timeframe": "quick",
+        "dependencies": [
+          "HR/incentive structure alignment",
+          "Regional leadership buy-in"
+        ],
+        "evidence_sources": [
+          "OKR Framework (joelparkerhenderson GitHub)",
+          "RACI Matrix framework"
+        ]
+      },
+      {
+        "id": "WS16",
+        "name": "Contract Scope Optimization (Add-ons & Amendments)",
+        "definition": "Within existing contracts, propose and close scope amendments to add specific service elements that were excluded from original contract \u2014 additional sites, extended hours, temporary capacity.",
+        "framework": "Value Engineering approach: identify gaps between contractual scope and actual client need. Present cost-benefit analysis. Use QBR to surface pain points. Propose pilot amendments that become permanent.",
+        "sodexo_application": "Target accounts where Sodexo contract scope is narrower than client's actual FM requirements. Examples: contract covers 3 sites but client opened 2 new sites \u2014 add them. Contract covers catering but not vending. Use contract amendment process rather than full rebid. Target: 20-25 amendments at avg \u20ac200-400K each.",
+        "revenue_contribution_pct": "~\u20ac6M (22 amendments \u00d7 avg \u20ac273K) = ~6% of \u20ac102M target.",
+        "timeframe": "quick",
+        "dependencies": [
+          "Contract database",
+          "Country MD identifying scope gaps",
+          "Procurement relationship for amendment approval"
+        ],
+        "evidence_sources": [
+          "Renewal & Upsell Framework (scope change module)",
+          "FM industry: contract amendments as fastest revenue path"
+        ]
+      },
+      {
+        "id": "WS17",
+        "name": "Reference Account & Case Study Development",
+        "definition": "Convert 5-8 best-performing accounts into public case studies and reference accounts \u2014 accelerates new logo acquisition and reduces sales cycle for geographic expansion.",
+        "framework": "Advocate development stage of the Bluma Land-and-Expand model: RENEW & ADVOCATE. NPS-driven reference program. Reference accounts: clients willing to speak to prospects. Case studies: documented ROI from Sodexo's services.",
+        "sodexo_application": "Identify 5-8 accounts with strongest NPS and measurable Sodexo ROI. Co-develop case study with client's marketing team. Secure permission to use as reference in RFP responses and prospect conversations. Particularly valuable for: tech campus accounts (prove workplace experience ROI) and pharma (prove regulatory compliance FM).",
+        "revenue_contribution_pct": "Indirect enabler: reduces new-logo sales cycle by 20-30%, supports WS10.",
+        "timeframe": "mid",
+        "dependencies": [
+          "High-NPS accounts identified",
+          "Client permission",
+          "Marketing support"
+        ],
+        "evidence_sources": [
+          "Bluma GTM: RENEW & ADVOCATE stage",
+          "SixArm Enterprise Account Mgmt: reference accounts as strategic assets"
+        ]
+      },
+      {
+        "id": "WS18",
+        "name": "Win-Back Program (Lost Accounts & Churned Sites)",
+        "definition": "Systematically target accounts Sodexo lost in the past 3 years and sites/geographies that churned \u2014 re-engage with improved proposition and new leadership.",
+        "framework": "Win-back sales methodology: (1) Root cause analysis of loss, (2) Assess if competitor has underdelivered, (3) New value proposition tailored to original objection, (4) New stakeholder engagement (not same person who chose to leave). Timing: target at contract renewal season for churned accounts.",
+        "sodexo_application": "Build win-back target list from Sodexo CRM: all accounts lost in APMEA in last 36 months. Prioritize: (a) accounts where competitor has had service failures, (b) accounts where Sodexo stakeholder contact has been replaced. Karan personally engages top 5 win-back targets.",
+        "revenue_contribution_pct": "~\u20ac5M (3-4 win-backs at avg \u20ac1.25-1.7M each).",
+        "timeframe": "long",
+        "dependencies": [
+          "CRM historical data on churned accounts",
+          "Competitive intelligence on current FM providers"
+        ],
+        "evidence_sources": [
+          "Customer Health Scoring: churn analysis",
+          "SAMA: win-back as underutilized growth lever"
+        ]
+      },
+      {
+        "id": "WS19",
+        "name": "Innovation Co-Creation Program",
+        "definition": "Partner with 3-5 key strategic accounts to jointly develop and pilot new FM solutions \u2014 positions Sodexo as innovation partner, creates switching cost, and generates premium revenue.",
+        "framework": "Co-innovation model: client provides site access and data, Sodexo provides FM operational expertise + tech investment. Revenue model: innovation premium (10-15% above standard contract rate) or performance-based revenue share.",
+        "sodexo_application": "Target tech-sector clients (natural fit for innovation narrative). Propose a joint FM innovation lab: e.g., AI-powered predictive maintenance pilot, zero-waste food program with real-time tracking, or autonomous cleaning robot pilot. Karan secures 3-4 co-innovation agreements at \u20ac500K-1M each in additional revenue.",
+        "revenue_contribution_pct": "~\u20ac3M (4 accounts \u00d7 avg \u20ac750K) = ~3% of \u20ac102M target.",
+        "timeframe": "long",
+        "dependencies": [
+          "Sodexo innovation pipeline",
+          "Client innovation budget",
+          "Legal: joint IP framework"
+        ],
+        "evidence_sources": [
+          "SAMA: co-creation as highest-value SAM activity",
+          "FM industry: innovation premium pricing 2022-2025"
+        ]
+      },
+      {
+        "id": "WS20",
+        "name": "APMEA Industry Vertical Deepening",
+        "definition": "Develop Sodexo-APMEA-specific vertical expertise in 3-4 key industries: Technology, Pharmaceuticals, Financial Services, Manufacturing \u2014 build custom service propositions per vertical and deploy vertical-specialist account managers.",
+        "framework": "Vertical market strategy: instead of generic FM pitch, lead with industry-specific pain points (pharma: GxP compliance, tech: hybrid work experience, financial services: tier-1 security requirements). Challenger Sale methodology: teach the client something new about their industry problem.",
+        "sodexo_application": "Karan creates 3-4 APMEA industry vertical working groups (each with 2-3 subject matter experts). Each vertical group develops: (a) industry benchmark report, (b) Sodexo solution specification for that vertical, (c) 3-5 reference clients in that vertical. Deploy as differentiation in RFP responses and QBR conversations.",
+        "revenue_contribution_pct": "Indirect: improves win rate in RFPs by 15-20%, enabling better conversion of WS04 and WS10.",
+        "timeframe": "mid",
+        "dependencies": [
+          "SME identification and allocation",
+          "Industry data partnerships"
+        ],
+        "evidence_sources": [
+          "Challenger Sale: Teach, Tailor, Take Control methodology",
+          "SAMA vertical specialization research"
+        ]
+      },
+      {
+        "id": "WS21",
+        "name": "Data-Driven Account Intelligence Platform",
+        "definition": "Build a real-time dashboard for Karan and country MDs showing pipeline health, white space coverage, contract renewal calendar, and expansion opportunity scores \u2014 enabling data-driven decisions.",
+        "framework": "Revenue Integrity Engine approach (sunonmountain GitHub): CRM data hygiene + health scoring + pipeline intelligence. Balanced Scorecard (joelparkerhenderson): 4 perspectives \u2014 Financial, Customer, Internal Process, Learning & Growth.",
+        "sodexo_application": "Deploy account intelligence dashboard on top of Sodexo's CRM (Salesforce likely). Key views: (1) Portfolio health heatmap, (2) White space opportunity matrix, (3) Contract renewal calendar (18-month look-ahead), (4) Pipeline by account and workstream, (5) Country MD performance vs target. Karan reviews weekly; country MDs update monthly.",
+        "revenue_contribution_pct": "Enabler: improves execution quality of all other workstreams.",
+        "timeframe": "quick",
+        "dependencies": [
+          "CRM data quality (Revenue Integrity Engine approach)",
+          "IT support for dashboard build"
+        ],
+        "evidence_sources": [
+          "Revenue Integrity Engine (sunonmountain GitHub)",
+          "Strategic Balanced Scorecard (joelparkerhenderson GitHub)",
+          "Equinix Account Plan Framework: Salesforce native account plans"
+        ]
+      }
+    ],
+    "industry_benchmarks": {
+      "avg_sam_growth_rate": "12-18% (SAMA research: strategic account management programs generate 2-3x more revenue growth vs non-managed accounts)",
+      "wallet_share_expansion_typical": "8-22% per year for top-performing SAM programs (Equinix account plan framework: NRR >120% for top performers)",
+      "cross_sell_success_rate": "25-40% of existing accounts successfully upsold to additional service lines in year 1 (Renewal & Upsell Framework v1.0)",
+      "new_geo_expansion_timeline": "4-9 months per country mobilization (FM industry norm for managed services)",
+      "single_threaded_vs_multi_stakeholder": "5% vs 30% win rate \u2014 6x improvement with multi-stakeholder engagement (Equinix Account Plan Framework)",
+      "expansion_revenue_margin_premium": "3-5x better margins vs new logo acquisition (Enterprise Renewal & Expansion Framework v1.0)",
+      "customer_acquisition_cost_ratio": "5-7x more expensive to acquire vs retain a customer (SixArm Enterprise Account Management)",
+      "qbr_expansion_yield": "68% of expansion opportunities in B2B managed services are identified during QBR conversations",
+      "contract_amendment_cycle": "Fastest revenue path in FM: 4-8 weeks vs 6-12 months for new geographic expansion",
+      "nrr_top_quartile_b2b": ">120% NRR for top-quartile strategic account programs (AICMO Land & Expand Intelligence Engine)"
+    },
+    "key_risks": [
+      "Client consolidation: large accounts consolidating FM to 1-2 global vendors (risk and opportunity)",
+      "Country MD execution gap: Karan sets strategy but cannot control country execution quality",
+      "Competitor response: Compass Group and ISS World using aggressive pricing to defend accounts",
+      "Macro slowdown: tech sector layoffs reduce headcount and FM spend at key tech accounts",
+      "Integration delays: M&A at client side disrupts FM decision-making and contracts",
+      "Currency risk: APMEA revenue reported in EUR, local contracts in AUD/INR/JPY creates FX exposure",
+      "Talent: FM operations talent shortage in India and Southeast Asia constrains mobilization speed"
+    ]
+  }
+}

@@ -1,0 +1,300 @@
+# CRP 001 Executive MBA Documentation Report 2013
+
+**Status:** Historical evidence - derived transcription  
+**Author:** Peter Frøkjær  
+**Created:** May 2013  
+**Imported into Mission Framework:** 2026-07-22  
+**Authoritative source:** `CRP-001-Executive-MBA-Documentation-Report-2013.pdf`  
+**Authoritative PDF pages:** 74  
+**PDF SHA-256:** `04eef0999958fa34a002da7e59129bf6feda406e5c874d3b9cb5c7d210d7e6d8`  
+
+> This Markdown file is an AI-searchable transcription derived from the original Word document. The corresponding PDF is the authoritative historical source. The original wording, including historical spelling and grammatical errors, has intentionally not been modernised. Figures and layout-dependent content must be checked against the PDF. This material is historical evidence and is not normative Mission Framework governance.
+
+---
+
+> **Figure or embedded visual:** See the corresponding location in the authoritative PDF.
+
+*En komplet og professionel IT løsning til din forretning*
+
+> **Figure or embedded visual:** See the corresponding location in the authoritative PDF.
+
+**Documentation**
+
+**Innovation Process**
+
+**An innovative framework for delivering Products & Services**
+
+**In**
+
+**ADP Dealer Services - Nordic**
+
+Executive MBA project – Business Institute – Aalborg – May, 2013
+
+Author: Peter Froekjaer
+
+CONFIDENTIAL
+
+Resumé
+
+Det overordnede formål med denne executive rapport er at beskrive, hvilke handlinger ADP skal tage for at være i stand til at levere de nødvendige produkter og services til sine kunder på kort og lang sigt.  
+  
+Beskrivelsen vil omfatte processerne vedrørende udvælgelse af produkter og tjenester, hvor kundens behov identificeres og diskuteres.  
+En del af processen vil være analyser af virksomhedens nuværende og fremtidige tilstand, i forhold til at opbygge en strategi baseret på påviste gaps for at lette rejsen.  
+  
+Dele af diskussionen vil derudover se på hvordan man sikre de nødvendige kompetencer er til rådighed for virksomheden på et givet tidspunkt. Heri indgår ligeledes krav til forretningen at identificere deres aktuelle og fremtidige kompetencebehov.  
+**  
+**
+
+# Contents
+
+[Documentation [6](#_Toc354836344)](#_Toc354836344)
+
+[1 The ADP organization [6](#the-adp-organization)](#the-adp-organization)
+
+[1.1 ADP Dealer Services International [7](#adp-dealer-services-international)](#adp-dealer-services-international)
+
+[1.2 ADP Dealer Services International – Nordic organization [7](#adp-dealer-services-international-nordic-organization)](#adp-dealer-services-international-nordic-organization)
+
+[1.3 ADP Dealer Services International – Denmark [7](#adp-dealer-services-international-denmark)](#adp-dealer-services-international-denmark)
+
+[2 Theory [8](#theory)](#theory)
+
+[2.1 Delimitation +/- [8](#delimitation--)](#delimitation--)
+
+[2.2 Methodology [8](#methodology)](#methodology)
+
+[2.3 Research types [8](#research-types)](#research-types)
+
+[2.4 Empirical evidence [8](#empirical-evidence)](#empirical-evidence)
+
+[3 Afdækning af kundens behov i dag og i morgen [10](#afdækning-af-kundens-behov-i-dag-og-i-morgen)](#afdækning-af-kundens-behov-i-dag-og-i-morgen)
+
+[3.1 Teorien [10](#teorien)](#teorien)
+
+[3.2 Metoden [12](#metoden)](#metoden)
+
+[3.2.1 Analysens formål [12](#analysens-formål)](#analysens-formål)
+
+[3.2.2 Analysens mål [13](#analysens-mål)](#analysens-mål)
+
+[3.2.2.1 Definition af spørgsmål: [13](#definition-af-spørgsmål)](#definition-af-spørgsmål)
+
+[3.2.2.2 Hypoteser: [14](#hypoteser)](#hypoteser)
+
+[3.2.2.3 Analysens afgrænsning [14](#analysens-afgrænsning)](#analysens-afgrænsning)
+
+[3.2.3 Økonomisk værdi af analysen [14](#økonomisk-værdi-af-analysen)](#økonomisk-værdi-af-analysen)
+
+[3.2.4 Capturing Customers Inputs - Analysen [15](#capturing-customers-inputs---analysen)](#capturing-customers-inputs---analysen)
+
+[3.2.5 Formuler strategien for analysens resultat (1) [16](#formuler-strategien-for-analysens-resultat-1)](#formuler-strategien-for-analysens-resultat-1)
+
+[3.2.5.1 Den ønskede innovations strategi defineres. [16](#den-ønskede-innovations-strategi-defineres.)](#den-ønskede-innovations-strategi-defineres.)
+
+[3.2.5.2 Growth Options [17](#growth-options)](#growth-options)
+
+[3.2.6 Capturing Customers Inputs - Analysen (2 & 3) [18](#capturing-customers-inputs---analysen-2-3)](#capturing-customers-inputs---analysen-2-3)
+
+[3.2.7 Foreberedelse til den explorativ analyse [19](#foreberedelse-til-den-explorativ-analyse)](#foreberedelse-til-den-explorativ-analyse)
+
+[3.2.7.1 Functional Jobs [20](#functional-jobs)](#functional-jobs)
+
+[3.2.7.2 Definer jobbet [20](#definer-jobbet)](#definer-jobbet)
+
+[3.2.7.3 Job-mapping [22](#job-mapping)](#job-mapping)
+
+[3.2.7.4 Outcomes/metric/KPI [23](#outcomesmetrickpi)](#outcomesmetrickpi)
+
+[3.3 Den Eksplorative analyse - Hvordan ser det fremtidige markedet ud? [24](#den-eksplorative-analyse---hvordan-ser-det-fremtidige-markedet-ud)](#den-eksplorative-analyse---hvordan-ser-det-fremtidige-markedet-ud)
+
+[3.3.1 Fremtidsscenariet baseret på Mega Trends [25](#fremtidsscenariet-baseret-på-mega-trends)](#fremtidsscenariet-baseret-på-mega-trends)
+
+[3.3.1.1 Small is beatyfull [25](#small-is-beatyfull)](#small-is-beatyfull)
+
+[3.3.1.2 Demotorization [26](#demotorization)](#demotorization)
+
+[3.3.1.3 Always online, always connected [26](#always-online-always-connected)](#always-online-always-connected)
+
+[3.3.1.4 New business models [27](#new-business-models)](#new-business-models)
+
+[3.3.1.5 Lack of engineers and specialists [28](#lack-of-engineers-and-specialists)](#lack-of-engineers-and-specialists)
+
+[3.4 Resultat af interview [28](#resultat-af-interview)](#resultat-af-interview)
+
+[3.4.1 Udarbejdelse af spørgeskema [29](#udarbejdelse-af-spørgeskema)](#udarbejdelse-af-spørgeskema)
+
+[3.4.2 Behandling af spørgeskema besvarelser [30](#behandling-af-spørgeskema-besvarelser)](#behandling-af-spørgeskema-besvarelser)
+
+[3.4.3 Opertunity Landscape [31](#opertunity-landscape)](#opertunity-landscape)
+
+[3.4.3.1 Job-mapping. A real life scenario: [31](#job-mapping.-a-real-life-scenario)](#job-mapping.-a-real-life-scenario)
+
+[3.4.3.2 Outcome statements anvendt i delprocessen - Plan a Promotion: [32](#outcome-statements-anvendt-i-delprocessen---plan-a-promotion)](#outcome-statements-anvendt-i-delprocessen---plan-a-promotion)
+
+[3.5 Opsummering [33](#opsummering)](#opsummering)
+
+[3.5.1 Identificeret uhensigtsmæssigheder [34](#identificeret-uhensigtsmæssigheder)](#identificeret-uhensigtsmæssigheder)
+
+[3.6 Sammenfatning [36](#sammenfatning)](#sammenfatning)
+
+[4 Marked segmentering [37](#marked-segmentering)](#marked-segmentering)
+
+[4.1 Princip for marked segmentering [39](#princip-for-marked-segmentering)](#princip-for-marked-segmentering)
+
+[4.2 Segmenteringsprocessen [41](#segmenteringsprocessen)](#segmenteringsprocessen)
+
+[4.2.1 Indsamling af data [41](#indsamling-af-data)](#indsamling-af-data)
+
+[4.2.2 Udvælg segmenteringskriterier [41](#udvælg-segmenteringskriterier)](#udvælg-segmenteringskriterier)
+
+[4.2.3 Foretage gruppeanalyse på de udvalgte kriterier [41](#foretage-gruppeanalyse-på-de-udvalgte-kriterier)](#foretage-gruppeanalyse-på-de-udvalgte-kriterier)
+
+[4.2.4 Foretage profilanalyse [42](#foretage-profilanalyse)](#foretage-profilanalyse)
+
+[4.3 Et eksempel: Hvad gjorde Motorola? [43](#et-eksempel-hvad-gjorde-motorola)](#et-eksempel-hvad-gjorde-motorola)
+
+[4.3.1 Indsamling: [43](#indsamling)](#indsamling)
+
+[4.3.2 Udvælg segmenteringskriterier [43](#udvælg-segmenteringskriterier-1)](#udvælg-segmenteringskriterier-1)
+
+[4.3.3 Foretage gruppeanalyse på de udvalgte kriterier [43](#foretage-gruppeanalyse-på-de-udvalgte-kriterier-1)](#foretage-gruppeanalyse-på-de-udvalgte-kriterier-1)
+
+[4.3.4 Foretage profilanalyse [43](#foretage-profilanalyse-1)](#foretage-profilanalyse-1)
+
+[4.4 Konkrete udfordringer i ADP-DSI-Nordic [44](#konkrete-udfordringer-i-adp-dsi-nordic)](#konkrete-udfordringer-i-adp-dsi-nordic)
+
+[4.5 Opsummering [45](#opsummering-1)](#opsummering-1)
+
+[4.5.1 Idé før analyse vs. analyse før idé [45](#idé-før-analyse-vs.-analyse-før-idé)](#idé-før-analyse-vs.-analyse-før-idé)
+
+[4.5.2 Segmentering [46](#segmentering)](#segmentering)
+
+[4.5.3 Metode [46](#metode)](#metode)
+
+[4.5.3.1 Indsamling af data [46](#indsamling-af-data-1)](#indsamling-af-data-1)
+
+[4.5.3.2 Segmenterings kriterier [46](#segmenterings-kriterier)](#segmenterings-kriterier)
+
+[4.5.3.3 Gruppe analyse [46](#gruppe-analyse)](#gruppe-analyse)
+
+[4.5.3.4 Profil analyse [46](#profil-analyse)](#profil-analyse)
+
+[4.5.4 Økonomi [46](#økonomi)](#økonomi)
+
+[4.6 Sammendrag [47](#sammendrag)](#sammendrag)
+
+[5 Kompetencer og kapabilitet [48](#kompetencer-og-kapabilitet)](#kompetencer-og-kapabilitet)
+
+[5.1 Definition af kompetencer [49](#definition-af-kompetencer)](#definition-af-kompetencer)
+
+[5.2 Kompetencetyper [49](#kompetencetyper)](#kompetencetyper)
+
+[5.3 Kernekompetencen og ROA maksimerings døds spiralen [51](#kernekompetencen-og-roa-maksimerings-døds-spiralen)](#kernekompetencen-og-roa-maksimerings-døds-spiralen)
+
+[5.4 Identificerede kernekompetencer hos ADP - VRIO [52](#identificerede-kernekompetencer-hos-adp---vrio)](#identificerede-kernekompetencer-hos-adp---vrio)
+
+[5.4.1 Valg af kernekompetencekandidater [53](#valg-af-kernekompetencekandidater)](#valg-af-kernekompetencekandidater)
+
+[5.4.2 Valg af kernekompetencer [54](#valg-af-kernekompetencer)](#valg-af-kernekompetencer)
+
+[5.5 Visualisering af kompetencer [56](#visualisering-af-kompetencer)](#visualisering-af-kompetencer)
+
+[5.6 Kompetenceelementer [57](#kompetenceelementer)](#kompetenceelementer)
+
+[5.7 Gap analyse af ADP’s kompetenceniveau [58](#gap-analyse-af-adps-kompetenceniveau)](#gap-analyse-af-adps-kompetenceniveau)
+
+[5.8 Gap analyse af ADP’s kvalifikationer vs. Behov [58](#gap-analyse-af-adps-kvalifikationer-vs.-behov)](#gap-analyse-af-adps-kvalifikationer-vs.-behov)
+
+[5.9 Opsummering [59](#opsummering-2)](#opsummering-2)
+
+[5.10 Sammendrag [59](#sammendrag-1)](#sammendrag-1)
+
+[6 Analyse af strategi ADP-DSI-Nordic’s strategi [60](#analyse-af-strategi-adp-dsi-nordics-strategi)](#analyse-af-strategi-adp-dsi-nordics-strategi)
+
+[6.1 Teorien [60](#teorien-1)](#teorien-1)
+
+[6.2 ADP-DSI-Nordic’s strategi: [61](#adp-dsi-nordics-strategi)](#adp-dsi-nordics-strategi)
+
+[6.2.1 ADP DS Old Vision’s [62](#adp-ds-old-visions)](#adp-ds-old-visions)
+
+[6.2.1.1 ADP-DS (HQ) Old Vision [62](#adp-ds-hq-old-vision)](#adp-ds-hq-old-vision)
+
+[6.2.1.2 ADP ADP-DSI-Danmark - Old Vision (2002-2006): [62](#adp-adp-dsi-danmark---old-vision-2002-2006)](#adp-adp-dsi-danmark---old-vision-2002-2006)
+
+[6.2.2 Old Pillars -\> Refined Pillars [63](#old-pillars---refined-pillars)](#old-pillars---refined-pillars)
+
+[6.2.3 ADP-DSI-Nordic Strategi [63](#adp-dsi-nordic-strategi)](#adp-dsi-nordic-strategi)
+
+[6.2.4 Strategiske udfordringer [63](#strategiske-udfordringer)](#strategiske-udfordringer)
+
+[6.2.5 Missionen [63](#missionen)](#missionen)
+
+[6.2.6 Vision [64](#vision)](#vision)
+
+[6.2.7 Værdier [64](#værdier)](#værdier)
+
+[6.3 Strategi skole [65](#strategi-skole)](#strategi-skole)
+
+[6.4 Opsummering [66](#opsummering-3)](#opsummering-3)
+
+[6.5 Sammendrag [66](#sammendrag-2)](#sammendrag-2)
+
+[7 Positionering af produkter [67](#positionering-af-produkter)](#positionering-af-produkter)
+
+[8 SWOT & strategiske udfordringer [68](#swot-strategiske-udfordringer)](#swot-strategiske-udfordringer)
+
+[8.1 [68](#section-3)](#section-3)
+
+[8.1.1 Implications to our Nordic strategy [68](#implications-to-our-nordic-strategy)](#implications-to-our-nordic-strategy)
+
+[8.1.2 ADP-DSI Global strategic issues – 2014-2018 [69](#adp-dsi-global-strategic-issues-2014-2018)](#adp-dsi-global-strategic-issues-2014-2018)
+
+[9 Figur liste [70](#figur-liste)](#figur-liste)
+
+[10 Kildeliste [71](#kildeliste)](#kildeliste)
+
+[11 Appendix [73](#appendix)](#appendix)
+
+**  
+**
+
+<span id="_Toc354836344" class="anchor"></span>**Documentation**
+
+# The ADP organization
+
+This report will focus on the Nordic regional business unit ADP-DSI-Nordic of the Dealer Services International Division, and the business in Denmark.
+
+ADP Dealer Services International is the international sub-division of the Dealer Services (DS) division of ADP. See organizations chart below in figure 1.
+
+ADP has two major business areas, separated into two primary business unites:
+
+- ES: Employer Services, that delivers Payroll services and HR Management as a service to our clients.
+
+- DS: Dealer Services, that delivers Dealer Managements Systems to Automotive Dealers.
+
+The ES and DS divisions are handling the US national business, where the international sub-divisions ESI and DSI are taking care of the International business.
+
+> **Figure or embedded visual:** See the corresponding location in the authoritative PDF.
+
+<span id="_Toc357523741" class="anchor"></span>Figure 1 - ADP’s organization structure
+
+Source: Authors’ development
+
+## ADP Dealer Services International
+
+ADP Dealer Services International HQ resides in Hungerford, UK. Hungerford is about one hour west of London.
+
+Dealer Services focus on:
+
+- Helping our clients sell vehicles, parts and service profitably
+
+- Bringing our clients and their customers together for life, wherever they are
+
+- Delivering an exceptional experience with a local touch
+
+The office is originally out of a 2005 accusation of the former company Kerridge. The old Kerridge organization has been in a transition face over time, changing focus from its original core product to align with the corporate and divisional strategy.
+
+## ADP Dealer Services International – Nordic organization
+
+ADP Dealer Services International – Nordic HQ resides in Vantaa, FI. The office is right outside Helsinki.
+

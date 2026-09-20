@@ -1,0 +1,1 @@
+SCRAPE_ERROR: HTTPSConnectionPool(host='www.sodexo.com', port=443): Max retries exceeded with url: /home/media/media-library/press-releases.html (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))

@@ -1,0 +1,1 @@
+SCRAPE_ERROR: HTTPSConnectionPool(host='www.compass-group.com', port=443): Max retries exceeded with url: /en/what-we-do/our-businesses.html (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))
