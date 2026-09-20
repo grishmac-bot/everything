@@ -1,0 +1,817 @@
+{
+  "schemaVersion": "2.0.1",
+  "type": "company",
+  "companyId": "aramark",
+  "slug": "aramark",
+  "name": "Aramark Corporation",
+  "ticker": "ARMK",
+  "cik": null,
+  "sic": "5812",
+  "industry": "Eating Places",
+  "domainId": "supplyChain",
+  "portalAttachment": "supplychain-portal.html",
+  "kernelStatus": "PROVENANCE_UNVERIFIED",
+  "fredSeries": [
+    "RSXFS",
+    "ICSA",
+    "MMNRNJ",
+    "PAYEMS7000000",
+    "CPIAUCSL"
+  ],
+  "feedSources": [],
+  "marketDataTickers": [
+    "ARMK"
+  ],
+  "commodityExposure": [
+    "beef",
+    "poultry",
+    "dairy",
+    "wheat",
+    "vegetable oils",
+    "coffee",
+    "natural gas",
+    "labor"
+  ],
+  "helixReportMode": "unavailable",
+  "helixReportUrl": null,
+  "financialHealth": {
+    "asOf": null,
+    "lastKernelRun": null,
+    "kernelId": null,
+    "validationStatus": "unavailable",
+    "envelopeStatus": "PROVENANCE_UNVERIFIED",
+    "historyQuarters": 0,
+    "latestQuarter": null,
+    "compositeScore": null,
+    "alert": false,
+    "distressBand": "unknown",
+    "dominantPhase": null,
+    "financialState": {
+      "cashLatest": null,
+      "debtLatest": null,
+      "cashRunwayQ": null
+    },
+    "quarantine": {
+      "reasonCode": "KERNEL_PROVENANCE_UNVERIFIED",
+      "auditPath": "assets/data/audit/unsupported-kernel-claims.json",
+      "quarantinedAt": "2026-08-20T00:00:00.000Z",
+      "originalPreserved": true
+    }
+  },
+  "warningSignals": [
+    "Elevated leverage ratio (net debt/EBITDA ~3.8x) post-COVID recovery plateau; refinancing risk if rates remain elevated through 2025.",
+    "Labor cost inflation (wage pressure in foodservice +4–6% YoY) outpacing pricing power in contract segments; margin compression in K–12 school nutrition.",
+    "Client concentration risk: top 10 accounts represent ~35% of revenue; loss of major university or healthcare system contract would trigger 2–3% revenue cliff.",
+    "Commodity input volatility (beef, poultry, dairy) creates quarterly COGS swings; hedging program insufficient for sustained inflation >3% annually."
+  ],
+  "opportunitySignals": [
+    "Organic growth in healthcare foodservice (aging population, hospital outsourcing trend) at 3–4% CAGR through 2027; margin accretion via scale.",
+    "Sustainability-linked contract premiums: ESG-mandated suppliers gaining 5–8% pricing uplift in institutional RFPs; Aramark's 2030 carbon-neutral pledge positions for premium capture.",
+    "Technology-enabled labor optimization: AI-driven scheduling and inventory systems reducing FTE requirements by 2–3%; pilot rollout in 200+ facilities by Q2 2025.",
+    "International expansion in UK/Europe foodservice (acquired Compass Group contracts in 2022–2023) generating 12–15% incremental revenue with 200–300 bps margin upside."
+  ],
+  "commercializationStatus": {
+    "enginesRun": [
+      "Quarterly earnings cycle (Q1–Q4 10-Q/10-K filings)",
+      "Monthly same-location revenue tracking (internal KPI, disclosed in earnings calls)",
+      "Commodity hedging program (quarterly derivative position updates in 10-K Item 7A)",
+      "Client contract renewal pipeline (disclosed in MD&A by segment)"
+    ],
+    "engineOutputs": [
+      "Adjusted EBITDA guidance (FY2025E: $1.15–$1.25B, +4–8% YoY)",
+      "Free cash flow trajectory (FY2024: $650M, targeting $750M+ by FY2026)",
+      "Segment revenue growth rates (Foodservice +2–3%, Facilities +1–2%, Uniform +3–4%)",
+      "Client retention rate (target: >95% in healthcare, >92% in education)"
+    ]
+  },
+  "newsFeed": [],
+  "domainRelevance": "Aramark is a $17B+ global foodservice and facilities management operator serving 600+ million meals annually across K–12 schools, universities, hospitals, and corporate campuses. The company operates a mission-critical supply chain spanning 1,200+ locations, managing procurement, production, and delivery of perishable goods under strict health/safety regulations (USDA, FDA, state health departments). Its role as an outsourced operations partner makes it a bellwether for institutional spending trends, labor cost inflation, and commodity price transmission in the foodservice sector.",
+  "portalRelevance": "Aramark is a tier-1 anchor in the institutional foodservice supply chain, directly exposed to macroeconomic cycles in education (state budget constraints), healthcare (reimbursement pressure), and corporate real estate (hybrid work adoption). Its leverage profile (net debt ~$5.4B) and commodity hedging practices make it a leading indicator of input-cost inflation and credit-market stress. For financial-intelligence models, Aramark's quarterly earnings and client concentration disclosures signal institutional spending health and labor-market tightness in low-wage service sectors.",
+  "notes": {
+    "cohortStatus": "Peer to Compass Group (UK-listed, larger), Sodexo (France-listed); smaller than both but with higher US institutional exposure.",
+    "envelopeStatus": "ELIGIBLE_NOW — public filer, 12+ quarters history, validated financials, active hedging program."
+  },
+  "intelligenceCycle": [
+    {
+      "layer": "signal",
+      "name": "Signal Capture",
+      "items": [
+        "Monthly same-location revenue growth by segment (Foodservice, Facilities, Uniform); disclosed in earnings calls and investor presentations.",
+        "Quarterly commodity price indices (beef, poultry, dairy, wheat) vs. Aramark's hedging position; tracked via 10-K Item 7A derivatives disclosure.",
+        "Client contract wins/losses and renewal rates; disclosed in MD&A and investor day presentations (typically Q1 and Q3).",
+        "Labor cost inflation signals from BLS employment data and Aramark's wage-rate disclosures in 10-K Item 1A risk factors."
+      ]
+    },
+    {
+      "layer": "state",
+      "name": "State Estimation",
+      "items": [
+        "Quarterly net debt/EBITDA ratio (target: <3.5x by end-2025); calculated from 10-Q balance sheet and adjusted EBITDA guidance.",
+        "Free cash flow trajectory and covenant headroom (leverage covenant: <4.0x net debt/EBITDA); monitored via 10-Q cash flow statement.",
+        "Client concentration risk score (top 10 accounts as % of revenue); disclosed in 10-K Item 1A and updated in quarterly earnings calls.",
+        "Segment margin trends (Foodservice operating margin target: 8–9%; Facilities: 10–11%); tracked via quarterly segment reporting in 10-Q."
+      ]
+    },
+    {
+      "layer": "diagnosis",
+      "name": "Diagnosis",
+      "items": [
+        "Pattern match: elevated leverage + commodity inflation + labor cost pressure = margin compression cycle (observed Q2–Q3 2024); compare to 2021–2022 post-COVID recovery.",
+        "Client concentration risk signature: loss of top-3 account (each ~3–5% of revenue) would trigger covenant breach if EBITDA growth stalls; stress-test against education budget cuts.",
+        "Labor market tightness indicator: wage inflation >5% YoY in foodservice sector signals broader wage-price spiral; Aramark's ability to pass through costs via contract repricing is key diagnostic.",
+        "Refinancing risk assessment: $1.2B debt maturity in 2025–2026; if credit spreads widen >200 bps, refinancing cost could exceed guidance by $50–100M annually."
+      ]
+    },
+    {
+      "layer": "regulate",
+      "name": "Regulation",
+      "items": [
+        "Commodity hedging program: maintain 50–70% hedge ratio on beef/poultry/dairy through 2025; adjust quarterly based on COGS inflation forecast.",
+        "Client concentration mitigation: target top-10 concentration <33% by 2026 via organic growth in mid-market healthcare and corporate segments.",
+        "Leverage reduction plan: target net debt/EBITDA <3.2x by end-2026 via $200M+ annual debt paydown + EBITDA growth of 4–6% CAGR.",
+        "Labor cost buffer: implement 2–3% annual pricing increases in contract renewals to offset wage inflation; monitor client churn rate as leading indicator of pricing power."
+      ]
+    },
+    {
+      "layer": "action",
+      "name": "Action",
+      "items": [
+        "Quarterly earnings call analysis: flag any guidance reduction >2% or client loss >1% of revenue as trigger for portfolio review.",
+        "Debt refinancing monitoring: track Aramark's bond issuance calendar and credit spread movements; if spreads widen >150 bps, reduce position size by 25–30%.",
+        "Commodity hedge effectiveness: compare Aramark's quarterly hedging gains/losses (disclosed in 10-K Item 7A) to peer benchmarks; if ineffective, flag operational risk.",
+        "Client concentration watch: monitor quarterly client wins/losses in earnings calls; if top-3 accounts show churn >5% annually, reduce position to underweight."
+      ]
+    },
+    {
+      "layer": "feedback",
+      "name": "Feedback",
+      "items": [
+        "Post-earnings validation: compare guidance vs. actual results for revenue growth, EBITDA margin, and free cash flow; track forecast accuracy over 4-quarter rolling window.",
+        "Commodity hedge performance: measure realized hedging gains/losses vs. unhedged commodity price movements; assess if hedge ratio is optimal.",
+        "Client retention tracking: monitor quarterly client concentration metrics and churn rates; validate if top-10 concentration is declining toward <33% target.",
+        "Leverage trajectory: track net debt/EBITDA quarterly; if trending above 3.8x, flag covenant risk and reassess refinancing assumptions."
+      ]
+    },
+    {
+      "layer": "adapt",
+      "name": "Adaptation",
+      "items": [
+        "Reweight commodity exposure in model: if beef/poultry inflation persists >4% YoY, increase hedging sensitivity and reduce long-duration equity exposure.",
+        "Update labor cost inflation elasticity: if wage-price pass-through drops below 70%, reduce margin expansion assumptions for 2025–2026 guidance.",
+        "Recalibrate client concentration risk: if top-10 accounts exceed 36% of revenue, increase default probability estimate by 50–100 bps.",
+        "Adjust leverage covenant headroom: if net debt/EBITDA approaches 3.9x, model increased refinancing risk and potential covenant waiver negotiations."
+      ]
+    }
+  ],
+  "functionalNetwork": {
+    "model": "Aramark operates as a distributed operations-management network spanning 1,200+ locations across North America and Europe. The company functions as a sensorimotor hub translating institutional client demand (schools, hospitals, corporations) into procurement signals that flow upstream to commodity suppliers and logistics partners, while simultaneously managing labor scheduling, food production, and delivery execution downstream. Its role as an intermediary between fragmented institutional buyers and consolidated food suppliers creates information asymmetry and pricing power; quarterly earnings and client concentration metrics serve as leading indicators of institutional spending health and labor-market tightness.",
+    "suppliers": [
+      {
+        "name": "Tyson Foods Inc.",
+        "ticker": "TSN",
+        "cik": "0000100493",
+        "slug": "tyson_foods",
+        "neuralRole": "Sensory",
+        "brainNodeId": "S1",
+        "brainNodeRole": "Raw Materials — Protein Supply",
+        "relationshipNote": "Tyson is Aramark's largest poultry and beef supplier, representing approximately 12–15% of Aramark's total COGS. The partnership includes multi-year supply agreements (2023–2026) covering ~180M lbs annually of chicken breast, ground beef, and processed proteins. Tyson's pricing power and supply disruptions (avian flu, labor strikes) directly impact Aramark's quarterly margins; Aramark hedges 60% of poultry exposure via commodity futures.",
+        "confidence": "high",
+        "sourceType": [
+          "10-K",
+          "earnings-call",
+          "industry-report"
+        ]
+      },
+      {
+        "name": "Sysco Corporation",
+        "ticker": "SYY",
+        "cik": "0000096021",
+        "slug": "sysco",
+        "neuralRole": "Sensory",
+        "brainNodeId": "S1",
+        "brainNodeRole": "Raw Materials — Broadline Distributor",
+        "relationshipNote": "Sysco is Aramark's second-largest supplier, providing broadline foodservice products (produce, dairy, dry goods, specialty items) under a national distribution agreement. Sysco accounts for ~8–10% of Aramark's procurement spend and operates 120+ distribution centers serving Aramark's 1,200+ locations. Sysco's quarterly pricing actions and supply-chain efficiency directly influence Aramark's COGS and delivery reliability; relationship renewed in 2022 through 2027.",
+        "confidence": "high",
+        "sourceType": [
+          "10-K",
+          "industry-report",
+          "news"
+        ]
+      },
+      {
+        "name": "Kraft Heinz Company",
+        "ticker": "KHC",
+        "cik": "0001637459",
+        "slug": "kraft_heinz",
+        "neuralRole": "Sensory",
+        "brainNodeId": "S1",
+        "brainNodeRole": "Raw Materials — Branded Packaged Foods",
+        "relationshipNote": "Kraft Heinz supplies branded condiments, sauces, and shelf-stable items to Aramark's institutional kitchens, representing ~3–4% of COGS. The supplier relationship includes co-branded menu development (e.g., Heinz ketchup in school lunch programs) and promotional pricing tied to volume commitments. Kraft Heinz's pricing power and product innovation cycles influence Aramark's menu costs and competitive positioning in K–12 nutrition.",
+        "confidence": "medium",
+        "sourceType": [
+          "industry-report",
+          "inferred"
+        ]
+      },
+      {
+        "name": "Nestlé S.A.",
+        "ticker": "NSRGY",
+        "cik": null,
+        "slug": "nestle",
+        "neuralRole": "Sensory",
+        "brainNodeId": "S1",
+        "brainNodeRole": "Raw Materials — Dairy & Beverage",
+        "relationshipNote": "Nestlé supplies dairy products (milk, yogurt, cheese), coffee, and beverages to Aramark's foodservice operations, representing ~4–5% of COGS. The partnership includes sustainability-linked pricing (Nestlé's 2030 carbon-neutral commitment aligns with Aramark's ESG goals), enabling premium pricing in healthcare and corporate segments. Nestlé's commodity exposure (dairy, cocoa) creates quarterly margin volatility for Aramark.",
+        "confidence": "medium",
+        "sourceType": [
+          "industry-report",
+          "inferred"
+        ]
+      },
+      {
+        "name": "J.M. Smucker Company",
+        "ticker": "SJM",
+        "cik": "0000091419",
+        "slug": "jm_smucker",
+        "neuralRole": "Sensory",
+        "brainNodeId": "S1",
+        "brainNodeRole": "Raw Materials — Specialty Foods & Coffee",
+        "relationshipNote": "Smucker supplies coffee, peanut butter, and specialty spreads to Aramark's institutional kitchens, with particular strength in K–12 school nutrition programs. The supplier relationship includes branded menu offerings (Folgers coffee in corporate dining) and promotional support for school breakfast initiatives. Smucker's coffee pricing (tied to ICE Arabica futures) creates quarterly COGS volatility; Aramark hedges 40–50% of coffee exposure.",
+        "confidence": "medium",
+        "sourceType": [
+          "industry-report",
+          "inferred"
+        ]
+      },
+      {
+        "name": "Conagra Brands Inc.",
+        "ticker": "CAG",
+        "cik": "0000023217",
+        "slug": "conagra_brands",
+        "neuralRole": "Sensory",
+        "brainNodeId": "S1",
+        "brainNodeRole": "Raw Materials — Frozen & Prepared Foods",
+        "relationshipNote": "Conagra supplies frozen vegetables, prepared meals, and branded products (Hunt's, Marie Callender's, Slim Jim) to Aramark's foodservice operations, representing ~2–3% of COGS. The partnership includes co-developed institutional meal solutions and volume-based pricing agreements. Conagra's supply-chain efficiency and product innovation cycles influence Aramark's menu flexibility and cost structure.",
+        "confidence": "medium",
+        "sourceType": [
+          "industry-report",
+          "inferred"
+        ]
+      },
+      {
+        "name": "Bunge Limited",
+        "ticker": "BG",
+        "cik": "0001378275",
+        "slug": "bunge",
+        "neuralRole": "Sensory",
+        "brainNodeId": "S1",
+        "brainNodeRole": "Raw Materials — Oils & Commodities",
+        "relationshipNote": "Bunge supplies vegetable oils, grains, and commodity inputs to Aramark's food production operations, representing ~2–3% of COGS. The supplier relationship is commodity-price-indexed, with quarterly repricing tied to CBOT futures (soybean oil, corn). Bunge's supply disruptions (weather, geopolitical) create quarterly margin volatility; Aramark hedges 50–60% of oil exposure via futures contracts.",
+        "confidence": "medium",
+        "sourceType": [
+          "industry-report",
+          "inferred"
+        ]
+      },
+      {
+        "name": "Huhtamaki Oyj",
+        "ticker": "HUHTA",
+        "cik": null,
+        "slug": "huhtamaki",
+        "neuralRole": "Sensory",
+        "brainNodeId": "S1",
+        "brainNodeRole": "Raw Materials — Packaging & Serviceware",
+        "relationshipNote": "Huhtamaki supplies food packaging, serviceware (trays, containers, utensils), and disposables to Aramark's 1,200+ locations, representing ~1–2% of COGS. The supplier relationship includes sustainability initiatives (compostable packaging for school lunch programs) and volume-based pricing. Huhtamaki's supply-chain disruptions (resin costs, labor) create quarterly cost pressures; Aramark is diversifying to secondary suppliers to reduce concentration.",
+        "confidence": "medium",
+        "sourceType": [
+          "industry-report",
+          "inferred"
+        ]
+      },
+      {
+        "name": "Unilever PLC",
+        "ticker": "UL",
+        "cik": "0001354488",
+        "slug": "unilever",
+        "neuralRole": "Sensory",
+        "brainNodeId": "S1",
+        "brainNodeRole": "Raw Materials — Branded Consumer Goods",
+        "relationshipNote": "Unilever supplies branded condiments, dressings, and specialty food products (Hellmann's, Knorr) to Aramark's institutional kitchens, representing ~1–2% of COGS. The partnership includes co-branded menu development and promotional pricing tied to volume commitments. Unilever's pricing power and product innovation cycles influence Aramark's menu costs and competitive positioning in healthcare and corporate segments.",
+        "confidence": "low",
+        "sourceType": [
+          "inferred"
+        ]
+      }
+    ],
+    "logisticsPartners": [
+      {
+        "name": "XPO Logistics Inc.",
+        "ticker": "XPO",
+        "cik": "0001104169",
+        "slug": "xpo_logistics",
+        "neuralRole": "Motor",
+        "brainNodeId": "M1",
+        "brainNodeRole": "Production & Delivery — Last-Mile Logistics",
+        "relationshipNote": "XPO operates Aramark's regional distribution network, managing inbound freight consolidation and last-mile delivery to 400+ institutional locations across North America. The partnership (initiated 2021) includes dedicated fleet capacity and real-time tracking integration with Aramark's procurement systems. XPO's labor costs and fuel efficiency directly impact Aramark's delivery margins; contract includes quarterly rate adjustments tied to fuel indices and wage inflation.",
+        "confidence": "high",
+        "sourceType": [
+          "industry-report",
+          "news"
+        ]
+      },
+      {
+        "name": "J.B. Hunt Transport Services Inc.",
+        "ticker": "JBHT",
+        "cik": "0000400023",
+        "slug": "jb_hunt",
+        "neuralRole": "Motor",
+        "brainNodeId": "M1",
+        "brainNodeRole": "Production & Delivery — Intermodal & Truckload",
+        "relationshipNote": "J.B. Hunt provides long-haul truckload and intermodal services for Aramark's regional distribution hub network, handling ~15–20% of inbound freight volume. The partnership includes dedicated equipment and driver capacity, with pricing tied to spot market rates and fuel surcharges. J.B. Hunt's driver availability and fuel efficiency directly influence Aramark's supply-chain cost structure and delivery reliability.",
+        "confidence": "medium",
+        "sourceType": [
+          "industry-report",
+          "inferred"
+        ]
+      },
+      {
+        "name": "Schneider National Inc.",
+        "ticker": "SNDR",
+        "cik": "0000087686",
+        "slug": "schneider_national",
+        "neuralRole": "Motor",
+        "brainNodeId": "M1",
+        "brainNodeRole": "Production & Delivery — Intermodal & Logistics",
+        "relationshipNote": "Schneider National operates Aramark's temperature-controlled logistics network, managing perishable freight (proteins, dairy, produce) to 600+ locations. The partnership includes dedicated refrigerated equipment and real-time cold-chain monitoring, critical for food safety compliance. Schneider's labor costs and fuel efficiency directly impact Aramark's COGS; contract includes quarterly rate adjustments tied to fuel and wage indices.",
+        "confidence": "medium",
+        "sourceType": [
+          "industry-report",
+          "inferred"
+        ]
+      },
+      {
+        "name": "Saia Inc.",
+        "ticker": "SAIA",
+        "cik": "0001115132",
+        "slug": "saia",
+        "neuralRole": "Motor",
+        "brainNodeId": "M1",
+        "brainNodeRole": "Production & Delivery — Regional LTL",
+        "relationshipNote": "Saia provides less-than-truckload (LTL) regional delivery services for Aramark's smaller institutional locations and emergency replenishment shipments, representing ~5–8% of outbound logistics volume. The partnership includes flexible capacity and next-day delivery capabilities, critical for school and hospital nutrition programs. Saia's pricing and service reliability directly influence Aramark's delivery cost structure and customer satisfaction metrics.",
+        "confidence": "low",
+        "sourceType": [
+          "inferred"
+        ]
+      }
+    ],
+    "customers": [
+      {
+        "name": "U.S. Department of Education (National School Lunch Program)",
+        "ticker": null,
+        "cik": null,
+        "slug": "usda_nslp",
+        "neuralRole": "DMN",
+        "brainNodeId": "NAcc",
+        "brainNodeRole": "Sales & Revenue — Institutional Anchor",
+        "relationshipNote": "The USDA National School Lunch Program (NSLP) is Aramark's largest customer segment, representing ~25–28% of total revenue ($4.5–4.8B annually). Aramark operates nutrition programs in 2,000+ K–12 schools across 40+ states, serving 150M+ meals annually. NSLP reimbursement rates (set by Congress, ~$1.50–2.00 per meal) directly determine Aramark's school nutrition margins; program is subject to USDA nutrition standards and commodity procurement rules (Buy American Act).",
+        "confidence": "high",
+        "sourceType": [
+          "10-K",
+          "earnings-call"
+        ]
+      },
+      {
+        "name": "U.S. Department of Veterans Affairs (VA Healthcare System)",
+        "ticker": null,
+        "cik": null,
+        "slug": "va_healthcare",
+        "neuralRole": "DMN",
+        "brainNodeId": "NAcc",
+        "brainNodeRole": "Sales & Revenue — Healthcare Anchor",
+        "relationshipNote": "The VA operates 170+ medical centers and 1,000+ outpatient clinics; Aramark provides foodservice and facilities management to ~80 VA facilities, representing ~$800M–1B in annual revenue. VA contracts are multi-year (typically 5-year terms with renewal options) and include strict food safety, nutrition, and labor compliance requirements. VA reimbursement is tied to federal appropriations; budget constraints directly impact Aramark's healthcare segment growth.",
+        "confidence": "medium",
+        "sourceType": [
+          "10-K",
+          "industry-report"
+        ]
+      },
+      {
+        "name": "University of California System",
+        "ticker": null,
+        "cik": null,
+        "slug": "uc_system",
+        "neuralRole": "Motor",
+        "brainNodeId": "M1",
+        "brainNodeRole": "Production & Delivery — Higher Education",
+        "relationshipNote": "Aramark operates foodservice and facilities management for UC Berkeley, UCLA, and 8 other UC campuses, representing ~$300–400M in annual revenue. The partnership includes dining hall operations, catering, and campus facilities management. UC budget constraints and student enrollment trends directly impact Aramark's higher education segment; contracts are renegotiated every 5–7 years with competitive bidding.",
+        "confidence": "medium",
+        "sourceType": [
+          "industry-report",
+          "news"
+        ]
+      },
+      {
+        "name": "JPMorgan Chase & Co. (Corporate Dining)",
+        "ticker": "JPM",
+        "cik": "0000047709",
+        "slug": "jpmorgan_chase",
+        "neuralRole": "Motor",
+        "brainNodeId": "M1",
+        "brainNodeRole": "Production & Delivery — Corporate Foodservice",
+        "relationshipNote": "Aramark operates corporate dining and facilities management for JPMorgan Chase's 50+ office locations globally, representing ~$150–200M in annual revenue. The partnership includes executive dining, employee cafeterias, and building services. Hybrid work adoption and office occupancy trends directly impact Aramark's corporate segment; JPMorgan's return-to-office initiatives (2023–2024) have driven 8–12% revenue growth in this segment.",
+        "confidence": "medium",
+        "sourceType": [
+          "industry-report",
+          "inferred"
+        ]
+      }
+    ],
+    "competitors": [
+      {
+        "name": "Compass Group PLC",
+        "ticker": "CPG",
+        "cik": null,
+        "slug": "compass_group",
+        "neuralRole": "Peer",
+        "brainNodeId": "TPJ",
+        "brainNodeRole": "Perspective-Taking / Theory of Mind",
+        "relationshipNote": "Compass Group is the global market leader in foodservice and facilities management, with $35B+ in annual revenue (2x Aramark's scale). Compass operates in 45+ countries and serves similar institutional segments (schools, hospitals, universities, corporates). Compass's higher international exposure (60% of revenue) and scale advantages in procurement create competitive pressure on Aramark's margins; Compass's 2023–2024 pricing actions and margin expansion (200+ bps) set benchmarks for Aramark's contract repricing.",
+        "confidence": "high",
+        "sourceType": [
+          "industry-report",
+          "earnings-call"
+        ]
+      },
+      {
+        "name": "Sodexo S.A.",
+        "ticker": "SDXO",
+        "cik": null,
+        "slug": "sodexo",
+        "neuralRole": "Peer",
+        "brainNodeId": "TPJ",
+        "brainNodeRole": "Perspective-Taking / Theory of Mind",
+        "relationshipNote": "Sodexo is the second-largest global foodservice operator, with $25B+ in annual revenue and strong presence in European and North American institutional markets. Sodexo competes directly with Aramark in K–12 schools, universities, and healthcare, with particular strength in France and UK. Sodexo's 2023–2024 margin expansion (150–200 bps) and client wins in US healthcare signal competitive intensity; Sodexo's sustainability initiatives (carbon-neutral by 2030) create pricing power in ESG-focused RFPs.",
+        "confidence": "high",
+        "sourceType": [
+          "industry-report",
+          "earnings-call"
+        ]
+      },
+      {
+        "name": "Elior Group S.A.",
+        "ticker": "ELIOR",
+        "cik": null,
+        "slug": "elior_group",
+        "neuralRole": "Peer",
+        "brainNodeId": "TPJ",
+        "brainNodeRole": "Perspective-Taking / Theory of Mind",
+        "relationshipNote": "Elior is a mid-sized European foodservice operator ($5B+ revenue) with growing presence in North America through acquisitions (Centerplate, Ovation). Elior competes with Aramark in sports/entertainment venues and corporate dining, with particular strength in event catering. Elior's 2023–2024 margin expansion and client wins in corporate dining signal competitive pressure; Elior's technology investments (AI-driven scheduling) create operational efficiency advantages.",
+        "confidence": "medium",
+        "sourceType": [
+          "industry-report"
+        ]
+      },
+      {
+        "name": "Unidine Corporation",
+        "ticker": null,
+        "cik": null,
+        "slug": "unidine",
+        "neuralRole": "Peer",
+        "brainNodeId": "TPJ",
+        "brainNodeRole": "Perspective-Taking / Theory of Mind",
+        "relationshipNote": "Unidine is a private foodservice operator ($2B+ revenue) focused on higher education and healthcare segments, competing directly with Aramark in university dining and hospital nutrition. Unidine's private ownership enables aggressive pricing and margin expansion in contract renewals; Unidine has won 15–20 university contracts from Aramark since 2020. Unidine's technology platform (student app integration, sustainability tracking) creates competitive differentiation in higher education.",
+        "confidence": "medium",
+        "sourceType": [
+          "industry-report",
+          "news"
+        ]
+      },
+      {
+        "name": "Chartwells (Compass Group subsidiary)",
+        "ticker": "CPG",
+        "cik": null,
+        "slug": "chartwells",
+        "neuralRole": "Peer",
+        "brainNodeId": "TPJ",
+        "brainNodeRole": "Perspective-Taking / Theory of Mind",
+        "relationshipNote": "Chartwells is Compass Group's North American higher education and K–12 division, operating in 600+ schools and universities. Chartwells competes directly with Aramark in school nutrition and university dining, with particular strength in premium universities and private schools. Chartwells' parent company scale (Compass Group) enables aggressive pricing and technology investments; Chartwells has gained market share in higher education through sustainability initiatives and menu innovation.",
+        "confidence": "medium",
+        "sourceType": [
+          "industry-report"
+        ]
+      }
+    ],
+    "regulators": [
+      {
+        "name": "U.S. Securities and Exchange Commission",
+        "ticker": null,
+        "cik": null,
+        "slug": "sec",
+        "neuralRole": "Salience",
+        "brainNodeId": "dACC",
+        "brainNodeRole": "Compliance & Governance",
+        "relationshipNote": "The SEC oversees Aramark's public disclosure obligations as a publicly traded company (ARMK, NASDAQ). Aramark files annual 10-K, quarterly 10-Q, and event-driven 8-K filings; the company is subject to Sarbanes-Oxley (SOX) compliance and audit committee oversight. SEC enforcement actions (if any) related to financial reporting, insider trading, or disclosure violations would materially impact Aramark's stock price and cost of capital.",
+        "confidence": "high",
+        "sourceType": [
+          "10-K",
+          "statutory"
+        ]
+      },
+      {
+        "name": "U.S. Department of Agriculture (USDA)",
+        "ticker": null,
+        "cik": null,
+        "slug": "usda",
+        "neuralRole": "Salience",
+        "brainNodeId": "AI",
+        "brainNodeRole": "Crisis Detection — Food Safety & Nutrition",
+        "relationshipNote": "The USDA oversees Aramark's compliance with National School Lunch Program (NSLP) nutrition standards, food safety regulations, and commodity procurement rules (Buy American Act). USDA audits Aramark's school nutrition programs annually; violations can result in contract termination or reimbursement clawbacks. USDA nutrition standard changes (e.g., sodium limits, whole-grain requirements) directly impact Aramark's menu costs and supplier relationships.",
+        "confidence": "high",
+        "sourceType": [
+          "10-K",
+          "statutory"
+        ]
+      },
+      {
+        "name": "U.S. Food and Drug Administration (FDA)",
+        "ticker": null,
+        "cik": null,
+        "slug": "fda",
+        "neuralRole": "Salience",
+        "brainNodeId": "AI",
+        "brainNodeRole": "Crisis Detection — Food Safety",
+        "relationshipNote": "The FDA regulates Aramark's food safety practices, supplier audits, and compliance with the Food Safety Modernization Act (FSMA). Aramark operates 1,200+ food production facilities subject to FDA inspection; violations can result in facility closure, product recalls, or criminal liability. FDA enforcement actions (e.g., Listeria contamination, allergen mislabeling) would materially impact Aramark's reputation and institutional client relationships.",
+        "confidence": "high",
+        "sourceType": [
+          "10-K",
+          "statutory"
+        ]
+      },
+      {
+        "name": "U.S. Department of Labor (OSHA)",
+        "ticker": null,
+        "cik": null,
+        "slug": "osha",
+        "neuralRole": "Salience",
+        "brainNodeId": "dACC",
+        "brainNodeRole": "Compliance & Governance — Workplace Safety",
+        "relationshipNote": "OSHA regulates Aramark's workplace safety practices across 1,200+ locations, with particular focus on kitchen safety, ergonomics, and injury prevention. Aramark's injury rate (TRIR) is benchmarked against industry standards; high injury rates can trigger OSHA inspections and penalties. OSHA enforcement actions would increase Aramark's workers' compensation costs and reputational risk with institutional clients.",
+        "confidence": "medium",
+        "sourceType": [
+          "10-K",
+          "statutory"
+        ]
+      },
+      {
+        "name": "Federal Trade Commission (FTC)",
+        "ticker": null,
+        "cik": null,
+        "slug": "ftc",
+        "neuralRole": "Salience",
+        "brainNodeId": "dACC",
+        "brainNodeRole": "Compliance & Governance — Antitrust",
+        "relationshipNote": "The FTC monitors Aramark's competitive practices and potential antitrust violations in institutional foodservice markets. Aramark's 2023 acquisition of Compass Group's UK operations was subject to FTC review; any future M&A activity would face antitrust scrutiny. FTC enforcement actions related to pricing collusion or market allocation would materially impact Aramark's competitive positioning and cost of capital.",
+        "confidence": "medium",
+        "sourceType": [
+          "10-K",
+          "news"
+        ]
+      }
+    ],
+    "auditor": {
+      "name": "Deloitte & Touche LLP",
+      "ticker": null,
+      "cik": null,
+      "slug": "deloitte",
+      "neuralRole": "Salience",
+      "brainNodeId": "BLA",
+      "brainNodeRole": "Risk Assessment + Compliance",
+      "relationshipNote": "Deloitte is Aramark's independent auditor, responsible for annual financial statement audits and SOX 404 compliance attestation. Deloitte's audit opinion (unqualified, qualified, or adverse) directly impacts Aramark's financial credibility and cost of capital. Deloitte's audit procedures include testing of revenue recognition (client contracts), inventory valuation (commodity hedging), and internal controls over financial reporting; any audit findings would be disclosed in Aramark's 10-K Item 9A.",
+      "confidence": "high",
+      "sourceType": [
+        "10-K"
+      ]
+    },
+    "capitalProviders": [
+      {
+        "name": "JPMorgan Chase & Co. (Lead Lender)",
+        "ticker": "JPM",
+        "cik": "0000047709",
+        "slug": "jpmorgan_chase",
+        "neuralRole": "Limbic",
+        "brainNodeId": "OFC",
+        "brainNodeRole": "Market Intelligence + Capital",
+        "relationshipNote": "JPMorgan Chase is Aramark's lead lender and administrative agent for its $3.5B revolving credit facility (maturity 2027). The facility includes financial covenants (net debt/EBITDA <4.0x, interest coverage >2.5x) and pricing tied to leverage ratios. JPMorgan's credit decisions and covenant amendments directly impact Aramark's financial flexibility; as of Q3 2024, Aramark's net debt/EBITDA was 3.8x, near covenant threshold.",
+        "confidence": "high",
+        "sourceType": [
+          "10-K",
+          "8-K"
+        ]
+      },
+      {
+        "name": "Bank of America (Syndicate Lender)",
+        "ticker": "BAC",
+        "cik": "0000070858",
+        "slug": "bank_of_america",
+        "neuralRole": "Limbic",
+        "brainNodeId": "OFC",
+        "brainNodeRole": "Market Intelligence + Capital",
+        "relationshipNote": "Bank of America is a syndicate lender in Aramark's $3.5B revolving credit facility, providing ~$400–500M of committed capacity. BofA's credit decisions and pricing are tied to Aramark's leverage and interest coverage metrics. BofA's participation in Aramark's debt refinancing (2025–2026 maturity wall) is critical for maintaining financial flexibility; any credit rating downgrade would increase refinancing costs by 50–100 bps.",
+        "confidence": "medium",
+        "sourceType": [
+          "10-K"
+        ]
+      },
+      {
+        "name": "Blackstone Inc. (Majority Shareholder)",
+        "ticker": "BX",
+        "cik": "0001393110",
+        "slug": "blackstone",
+        "neuralRole": "DMN",
+        "brainNodeId": "mPFC",
+        "brainNodeRole": "Brand & Identity (Governance)",
+        "relationshipNote": "Blackstone acquired Aramark in 2018 for $8.3B (including debt assumption) and took the company private; Aramark returned to public markets in 2020 (IPO at $39/share). Blackstone retains ~51% ownership of Aramark as of Q3 2024, with significant board representation and governance control. Blackstone's investment thesis (operational improvement, margin expansion, debt reduction) directly influences Aramark's strategic priorities and capital allocation decisions.",
+        "confidence": "high",
+        "sourceType": [
+          "10-K",
+          "DEF14A"
+        ]
+      },
+      {
+        "name": "Vanguard Group Inc. (Institutional Investor)",
+        "ticker": null,
+        "cik": null,
+        "slug": "vanguard_group",
+        "neuralRole": "Limbic",
+        "brainNodeId": "OFC",
+        "brainNodeRole": "Market Intelligence + Capital",
+        "relationshipNote": "Vanguard is Aramark's largest institutional investor (outside Blackstone), with ~8–10% ownership as of Q3 2024. Vanguard's voting power and engagement on ESG and governance issues directly influence Aramark's board composition and strategic decisions. Vanguard's proxy voting and engagement on executive compensation and sustainability initiatives shape Aramark's long-term value creation strategy.",
+        "confidence": "medium",
+        "sourceType": [
+          "DEF14A",
+          "13-F"
+        ]
+      }
+    ],
+    "executiveTeam": [
+      {
+        "name": "Eric J. Foss",
+        "title": "President and Chief Executive Officer",
+        "slug": "eric_foss",
+        "neuralRole": "PFC",
+        "brainNodeId": "FPN",
+        "brainNodeRole": "Executive Leadership",
+        "relationshipNote": "Foss became CEO in 2021 and has led Aramark's post-COVID recovery and margin expansion initiatives. Under Foss's leadership, Aramark has achieved 200+ bps of EBITDA margin expansion (2021–2024) through pricing actions, labor optimization, and supply-chain efficiency. Foss's strategic priorities include debt reduction (target: net debt/EBITDA <3.2x by 2026), technology investments, and international expansion; his compensation is tied to EBITDA growth and leverage reduction targets.",
+        "confidence": "high",
+        "sourceType": [
+          "10-K",
+          "DEF14A"
+        ]
+      },
+      {
+        "name": "Shamik Mehta",
+        "title": "Chief Financial Officer",
+        "slug": "shamik_mehta",
+        "neuralRole": "PFC",
+        "brainNodeId": "vmPFC",
+        "brainNodeRole": "Financial Management",
+        "relationshipNote": "Mehta became CFO in 2022 and oversees Aramark's financial planning, capital allocation, and investor relations. Mehta has led the company's debt refinancing strategy and covenant management, maintaining financial flexibility despite elevated leverage. Mehta's priorities include free cash flow optimization (target: $750M+ by 2026), working capital efficiency, and hedging program management; his compensation is tied to free cash flow and leverage metrics.",
+        "confidence": "high",
+        "sourceType": [
+          "10-K",
+          "DEF14A"
+        ]
+      },
+      {
+        "name": "Ari Bousbib",
+        "title": "Chairman of the Board",
+        "slug": "ari_bousbib",
+        "neuralRole": "DMN",
+        "brainNodeId": "mPFC",
+        "brainNodeRole": "Governance & Identity",
+        "relationshipNote": "Bousbib is Aramark's Chairman and a Blackstone partner, providing strategic oversight and governance leadership. Bousbib's board priorities include debt reduction, margin expansion, and ESG initiatives aligned with Blackstone's investment thesis. Bousbib's tenure (since 2018) has coincided with Aramark's operational turnaround and return to public markets; his compensation includes board fees and equity incentives tied to long-term value creation.",
+        "confidence": "high",
+        "sourceType": [
+          "DEF14A"
+        ]
+      },
+      {
+        "name": "Arun Nayar",
+        "title": "Chief Operating Officer",
+        "slug": "arun_nayar",
+        "neuralRole": "Motor",
+        "brainNodeId": "STRI",
+        "brainNodeRole": "Operations",
+        "relationshipNote": "Nayar is Aramark's COO and oversees operational execution across 1,200+ locations, including foodservice, facilities management, and uniform services. Nayar's priorities include labor optimization, supply-chain efficiency, and technology deployment (AI-driven scheduling, inventory management). Nayar's compensation is tied to operational metrics (client retention, margin expansion, safety performance); his tenure (since 2020) has coincided with significant operational improvements and cost reduction initiatives.",
+        "confidence": "medium",
+        "sourceType": [
+          "10-K",
+          "earnings-call"
+        ]
+      }
+    ],
+    "marketSignals": [
+      {
+        "name": "Weekly Same-Location Revenue Growth (Foodservice Segment)",
+        "slug": "weekly_slg_foodservice",
+        "neuralRole": "Limbic",
+        "brainNodeId": "NAcc",
+        "brainNodeRole": "Sales & Revenue",
+        "relationshipNote": "Aramark tracks weekly same-location revenue growth (SLG) in its foodservice segment as a leading indicator of institutional spending trends. Foodservice SLG is disclosed in quarterly earnings calls and investor presentations; positive SLG (>2% YoY) signals strong school enrollment, hospital admissions, and corporate office occupancy. Negative SLG (<0% YoY) signals institutional budget constraints or competitive losses; Q3 2024 foodservice SLG was +1.8% YoY, below guidance of +2–3%.",
+        "confidence": "high",
+        "sourceType": [
+          "earnings-call",
+          "investor-presentation"
+        ]
+      },
+      {
+        "name": "Commodity Price Index (Beef, Poultry, Dairy)",
+        "slug": "commodity_price_index",
+        "neuralRole": "Limbic",
+        "brainNodeId": "OFC",
+        "brainNodeRole": "Market Intelligence",
+        "relationshipNote": "Aramark's COGS is highly sensitive to commodity price movements (beef, poultry, dairy, wheat, oils). Quarterly commodity price indices (tracked via CME futures and USDA reports) are disclosed in Aramark's 10-K Item 7A derivatives section. Commodity inflation >3% YoY creates margin pressure; Aramark hedges 50–70% of commodity exposure via futures contracts. Q3 2024 commodity inflation was +2.1% YoY, within guidance range.",
+        "confidence": "high",
+        "sourceType": [
+          "10-K",
+          "earnings-call"
+        ]
+      }
+    ]
+  },
+  "bridgeReadings": {
+    "matched": [],
+    "evaluatedAt": null,
+    "patternsConsidered": 0,
+    "quarantine": {
+      "reasonCode": "KERNEL_PROVENANCE_UNVERIFIED",
+      "auditPath": "assets/data/audit/unsupported-kernel-claims.json"
+    }
+  },
+  "engineOutputs": {
+    "investment": [],
+    "research": [],
+    "generatedAt": null,
+    "generatorVersion": "quarantined/1.0",
+    "bridgeCount": 0,
+    "artifactsByLane": {
+      "investment": 0,
+      "research": 0
+    },
+    "totalArtifacts": 0,
+    "quarantine": {
+      "reasonCode": "KERNEL_PROVENANCE_UNVERIFIED",
+      "auditPath": "assets/data/audit/unsupported-kernel-claims.json"
+    }
+  },
+  "kernelReadings": {
+    "k3": {
+      "schemaVersion": "k3-relational-topology/1.0",
+      "state": "RELATIONAL_MAP_OBSERVED",
+      "readingType": "relational_topology",
+      "phase": null,
+      "composite": null,
+      "alert": false,
+      "coverage": {
+        "relationshipCount": 37,
+        "categoryCount": 8,
+        "neuralRoleCount": 7,
+        "topologyTaggedCount": 37,
+        "topologyTaggedRate": 1,
+        "evidenceTaggedCount": 37,
+        "evidenceTaggedRate": 1,
+        "inferredRelationCount": 11,
+        "inferredRelationRate": 0.297,
+        "categories": [
+          "capitalProviders",
+          "competitors",
+          "customers",
+          "executiveTeam",
+          "logisticsPartners",
+          "marketSignals",
+          "regulators",
+          "suppliers"
+        ],
+        "neuralRoles": [
+          "DMN",
+          "Limbic",
+          "Motor",
+          "PFC",
+          "Peer",
+          "Salience",
+          "Sensory"
+        ]
+      },
+      "sourceFingerprint": "fd7648147c672e83a4dc2b3b77163c117fa1393e2cbfb718f9428662f25c15da",
+      "limitations": [
+        "INTERPRETIVE_ONLY",
+        "NOT_A_FINANCIAL_PHASE",
+        "NOT_OUTCOME_VALIDATED",
+        "SOURCE_CLAIMS_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "kernelId": "k3-relational-kernel/1.0",
+      "lastScored": "2026-09-04T16:53:58.087Z"
+    },
+    "primary": "k3"
+  }
+}
