@@ -1,0 +1,102 @@
+# SEA Growth Research — Web-scraped September 2026
+
+## SEA FM Market Data
+Source: Frost & Sullivan / ResearchAndMarkets via web search (September 2025 reports)
+- SEA FM market: USD 15.34B (2024) → USD 22.59B (2030), CAGR 6.7–8.5%
+- Mature market: Singapore
+- High-growth markets: Indonesia, Vietnam, Philippines
+- Key driver: "First-time outsourcers" — companies in developing SEA shifting from in-house to outsourced FM
+- Outsourcing trend: expanding asset bases, evolving FM needs, sustainability requirements
+- Green building: Singapore Green Mark, LEED (Vietnam/Thailand), Estidama driving new contracts
+- ESG: Procurement teams evaluating ESG reporting capability when selecting FM vendors
+- Challenge: High preference for in-house FM teams in certain markets/sectors. Unregulated market.
+- FM consolidation happening in SEA (parallel to GCC trend)
+Source URL: https://finance.yahoo.com/news/southeast-asia-facility-management-industry-083400489.html
+Source URL: https://www.frost.com/growth-opportunity-news/energy-environment/homes-buildings/how-outsourcing-and-value-added-services-are-redefining-facility-management-in-southeast-asia
+
+## Bain "Decade of Divergence" 2026–2035
+Source: Bain & Company / DBS Bank / Vriens & Partners (2026)
+URL: https://www.bain.com/insights/from-tailwinds-to-trade-offs-southeast-asia-outlook-2026-2035/
+- SEA-6 (Indonesia, Malaysia, Philippines, Singapore, Thailand, Vietnam) average growth: 4.8% p.a. 2026-2035
+- Theme: "From Tailwinds to Trade-Offs" — markets diverging based on institutional strength, energy security, tech readiness
+- Key differentiators: institutional resilience, energy systems, AI dividend
+- Singapore: trusted hub role, connects regional capital, businesses, opportunities
+- Growth supported by: FDI, infrastructure, productivity from tech adoption, demographics
+- Country-specific GDP (2024 actuals): Vietnam 6.1%, Philippines 5.8%, Indonesia 5.0%, Cambodia 5.0%
+- Vietnam 2025 projection: 6.5%, driven by FDI manufacturing and e-commerce
+
+## SEA B2B Growth Challenges
+Source: Firmable B2B Outbound Guide 2026; ECXO Asia B2B CX Benchmark 2025
+URL: https://firmable.com/sg/resources/blog/how-to-run-b2b-outbound-in-southeast-asia/
+1. Market fragmentation: SEA = 10+ distinct markets with different buying behaviors, decision structures
+2. Hierarchy: Outside Singapore, final decision sits with most senior stakeholder — top-down approach works best
+3. Trust gap: Case studies from US/Europe don't convert. Local references 3x more effective.
+4. Spread too thin: Companies that try to "cover SEA from day one" create shallow pipeline across multiple countries
+5. 12-18 month learning curve for new market entry
+6. Partner quality: Rushed partner selection leads to poor-fit distributors
+7. Relationship-led: Who you've worked with matters before what you offer
+8. Decision-making: Outside Singapore, buying process is more hierarchy-driven and relationship-based
+
+## Multinational Expansion Challenges
+Source: Elite Asia, AYP Group, Source of Asia (2026 guides)
+URL: https://www.eliteasia.co/5-tips-for-companies-expanding-into-southeast-asia-markets/
+URL: https://ayp-group.com/blog/the-2026-asia-expansion-playbook-key-markets-opportunities-and-risks-for-mid-sized-enterprises
+1. Operational complexity: Best companies treat SEA as distinct markets, accept 12-18 month learning curve
+2. Partner selection: Rushed decisions or personal networks → wrong distributors / JV partners
+3. Local execution: Prioritizing sales growth ahead of stable operations risks
+4. Country diversity: varying regulatory, cultural, economic conditions per country
+5. Indonesia: archipelagic geography → national coverage requires sub-distributors
+
+## Company Growth Strategies in SEA
+Source: Kanpla "Behind the Numbers" analysis; Facilitiesdive; Yahoo Finance (FY24 reports)
+URL: https://kanpla.io/served/behind-numbers-what-annual-reports-of-compass-sodexo-aramark-elior-reveal-about-the-future-of-contract-catering
+- Big 4 catering companies (Sodexo, Compass, Aramark, Elior) averaged 9.75% growth in FY24
+- Market growing at 5.3% y/y — leaders outgrowing market
+- Sodexo: €24.9B revenue, 7.9% organic growth; North America +8.7%
+- Digital transformation: core growth driver in annual reports — IoT, AI, automation
+- Average profit margin growing: 6.43% (2023) → 7.93% (2026 projected)
+
+ISS specific:
+- Launched "The Place" and "The Whole Grain" food brands — positioning workplace dining as premium experience
+- Responding to hybrid work shift: less volume, more quality in workplace food services
+
+CBRE + Johnson Controls (October 2024):
+- Partnership for energy efficiency retrofits across Continental Europe, Middle East, Asia-Pacific
+- Combined scoping + funding + execution + monitoring into one program
+- Targeting buildings that can't afford capital outlay — performance-contract model
+
+## B2B Creative Growth in SEA
+Source: Hubspot APAC Sales in Asia Guide; Callbox; ARC Group
+URL: https://www.hubspot.com/web-guide/apac/resources/sales-in-asia/partners
+- Local partners: deeply understand the region, have built-in brand trust, own customer relationships
+- Depth in one market > shallow coverage across four
+- Indonesia: national coverage through sub-distributor networks (archipelago problem)
+- Thailand: modern trade networks, established retail relationships required
+- KOL/trusted advisor model: recommendation-based selling 3x more effective than direct
+- Relationship-led: trust before transaction in most SEA markets
+
+## BCG 6 GTM Strategies for Emerging Economies (2025)
+Source: BCG publication 2025 — site blocked, title scraped
+URL: https://www.bcg.com/publications/2025/six-winning-gtm-strategies-for-emerging-economies
+- Companies with mature GTM in India/SEA outperform laggards by ~4% CAGR revenue, 6% profit growth
+- Asia-Pacific FMCG companies' overseas revenue growing 50% faster than domestic (Bain 2024)
+- "Build from Core" strategy: leverage core offering from home market to expand
+
+## SEA Outsourcing Market
+Source: Microsourcing, Invedus, Outsource Asia (2025-2026)
+- Vietnam: leads SEA outsourcing — versatile, dependable, cost-effective, 6.1% GDP growth
+- Indonesia: rising star — young tech-savvy workforce, demographic advantage
+- Malaysia: leads ease of doing business (12th globally)
+- Philippines: BPO heritage, 95th ease of business
+- 7 of top 10 Global Services Location Index in Asia-Pacific
+- Hybrid work has accelerated outsourcing demand — flexible distributed workforces
+
+## SEA Facility Management by Country (2025-2030)
+Source: ResearchAndMarkets / Frost & Sullivan
+- Key 6 markets: Malaysia, Indonesia, Singapore, Thailand, Vietnam, Philippines
+- Singapore: mature, lower growth but highest quality standards
+- Indonesia: fast-growing, first-time outsourcer market, archipelago complexity
+- Vietnam: FDI-driven manufacturing boom, new industrial zones, green building push
+- Philippines: BPO sector leading to FM demand in office buildings
+- Malaysia: established market, ease of business advantage, competitive pricing
+- Thailand: "Thailand 4.0" digital economy push, sustainability focus
